@@ -1,0 +1,80 @@
+pipeline {
+    agent any
+
+    tools {
+        maven 'Maven3'
+        jdk 'JDK17'
+    }
+
+    parameters {
+        choice(name: 'ENV', choices: ['qa', 'stage'], description: 'Environment')
+        choice(name: 'TAGS', choices: ['@Smoke', '@Regression'], description: 'Cucumber Tags')
+        choice(name: 'BROWSER', choices: ['chrome', 'firefox'], description: 'Browser')
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/org/project.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                sh 'mvn clean compile'
+            }
+        }
+
+        stage('Start Selenium Grid') {
+            steps {
+                sh 'docker-compose up -d'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                sh """
+                   mvn test \
+                   -Denv=${ENV} \
+                   -Dbrowser=${BROWSER} \
+                   -Dcucumber.filter.tags=${TAGS}
+                """
+            }
+        }
+        stage('Rerun Failed Tests') {
+            when {
+                expression { fileExists('target/failed.txt') }
+            }
+            steps {
+                sh 'mvn test -Dcucumber.options=@target/failed.txt'
+            }
+        }
+
+        stage('Publish Reports') {
+            steps {
+                publishHTML(target: [
+                    reportDir: 'target',
+                    reportFiles: 'cucumber-report.html',
+                    reportName: 'Cucumber Report'
+                ])
+            }
+        }
+    }
+
+    post {
+        always {
+            sh 'docker-compose down'
+        }
+        failure {
+            emailext(
+                subject: "❌ Build Failed - ${JOB_NAME}",
+                body: "Check Jenkins logs",
+                to: "qa-team@company.com"
+            )
+        }
+        success {
+            echo "✅ Tests Passed"
+        }
+    }
+}

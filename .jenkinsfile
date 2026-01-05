@@ -1,0 +1,27 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Start Grid') {
+            steps {
+                sh 'docker-compose up -d'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                sh 'mvn clean test'
+            }
+        }
+
+        stage('Reports') {
+            steps {
+                publishHTML(target: [
+                    reportDir: 'target',
+                    reportFiles: 'cucumber-report.html',
+                    reportName: 'Cucumber Report'
+                ])
+            }
+        }
+    }
+}
