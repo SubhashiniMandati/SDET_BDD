@@ -30,24 +30,24 @@ public class Hooks {
         // WebDriver setup ONLY
     }
 
-    @AfterStep
-    public void afterEachStep(Scenario scenario) {
-        if (scenario.isFailed()) {
-            WebDriver driver = DriverFactory.getDriver();
-            try {
-                byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-                scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
-
-                // Attach to Extent Report step node
-                ExtentManager.getStepTest().fail("Step Failed",
-                        MediaEntityBuilder.createScreenCaptureFromBase64String(
-                                java.util.Base64.getEncoder().encodeToString(screenshot)
-                        ).build());
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-    }
+//    @AfterStep
+//    public void afterEachStep(Scenario scenario) {
+//        if (scenario.isFailed()) {
+//            WebDriver driver = DriverFactory.getDriver();
+//            try {
+//                byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+//                scenario.attach(screenshot, "image/png", "Failed Step Screenshot");
+//
+//                // Attach to Extent Report step node
+//                ExtentManager.getStepTest().fail("Step Failed",
+//                        MediaEntityBuilder.createScreenCaptureFromBase64String(
+//                                java.util.Base64.getEncoder().encodeToString(screenshot)
+//                        ).build());
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//        }
+//    }
 
     @After
     public void afterScenario(Scenario scenario) {
@@ -55,6 +55,11 @@ public class Hooks {
 //                scenario.getName(),
 //                scenario.getStatus());
 //        ExtentTestManager.clearAll();
+        if (scenario.isFailed()) {
+            byte[] screenshot = ((TakesScreenshot) DriverFactory.getDriver())
+                    .getScreenshotAs(OutputType.BYTES);
+            scenario.attach(screenshot, "image/png", scenario.getName());
+        }
         DriverFactory.quitDriver();
     }
 }

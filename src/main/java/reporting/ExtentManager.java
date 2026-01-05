@@ -1,22 +1,39 @@
 package reporting;
 
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-public class ExtentManager {
-    private static ExtentReports extent;
-    private static ThreadLocal<ExtentTest> stepTest = new ThreadLocal<>();
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
-    public static ExtentReports getInstance() {
+public class ExtentManager {
+
+    private static ExtentReports extent;
+
+    public static ExtentReports createInstance() {
         if (extent == null) {
-            ExtentSparkReporter reporter = new ExtentSparkReporter("test-output/ExtentReport.html");
-            extent = new ExtentReports();
-            extent.attachReporter(reporter);
+            try {
+                // Ensure target/test-output folder exists
+                Path outputPath = Path.of("target/test-output");
+                if (!Files.exists(outputPath)) {
+                    Files.createDirectories(outputPath);
+                }
+
+                String reportFile = "target/test-output/ExtentReport.html";
+                ExtentSparkReporter sparkReporter = new ExtentSparkReporter(reportFile);
+                sparkReporter.config().setReportName("BDD Test Automation Report");
+                sparkReporter.config().setDocumentTitle("Automation Report");
+
+                extent = new ExtentReports();
+                extent.attachReporter(sparkReporter);
+                extent.setSystemInfo("Tester", "Subhashini");
+                extent.setSystemInfo("Project", "My BDD Framework");
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
         return extent;
     }
-
-    public static void setStepTest(ExtentTest test) { stepTest.set(test); }
-    public static ExtentTest getStepTest() { return stepTest.get(); }
 }

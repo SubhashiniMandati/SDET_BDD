@@ -12,7 +12,7 @@ public class ExtentTestNGListener implements ITestListener, ISuiteListener {
 
     @Override
     public void onStart(ISuite suite) {
-        extent = ExtentManager.getInstance();
+        extent = ExtentManager.createInstance();
     }
 
     @Override

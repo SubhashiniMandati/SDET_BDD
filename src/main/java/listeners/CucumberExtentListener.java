@@ -1,42 +1,120 @@
 package listeners;
 
-import com.aventstack.extentreports.*;
-import io.cucumber.plugin.EventListener;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
+import io.cucumber.plugin.ConcurrentEventListener;
 import io.cucumber.plugin.event.*;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
+import driver.DriverFactory;
 import reporting.ExtentManager;
 
-public class CucumberExtentListener implements EventListener {
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Map;
 
-    private static ExtentReports extent = ExtentManager.getInstance();
-    private static ThreadLocal<ExtentTest> scenarioTest = new ThreadLocal<>();
-    private static ThreadLocal<ExtentTest> stepTest = new ThreadLocal<>();
+public class CucumberExtentListener implements ConcurrentEventListener {
+
+    private static ExtentReports extent = ExtentManager.createInstance();
+    private static Map<String, ExtentTest> scenarioMap = new HashMap<>();
 
     @Override
     public void setEventPublisher(EventPublisher publisher) {
+        publisher.registerHandlerFor(TestCaseStarted.class, this::onTestCaseStarted);
+        publisher.registerHandlerFor(TestStepFinished.class, this::onTestStepFinished);
+        publisher.registerHandlerFor(TestCaseFinished.class, this::onTestCaseFinished);
+    }
 
-        publisher.registerHandlerFor(TestCaseStarted.class, event -> {
-            ExtentTest test = extent.createTest(event.getTestCase().getName());
-            scenarioTest.set(test);
-        });
+    private void onTestCaseStarted(TestCaseStarted event) {
+        ExtentTest scenario = extent.createTest(event.getTestCase().getName());
+        scenarioMap.put(event.getTestCase().getId().toString(), scenario);
+    }
 
-        publisher.registerHandlerFor(TestStepStarted.class, event -> {
-            if (event.getTestStep() instanceof PickleStepTestStep step) {
-                stepTest.set(
-                        scenarioTest.get().createNode(step.getStep().getText())
+    private void onTestStepFinished(TestStepFinished event) {
+
+        if (!(event.getTestStep() instanceof PickleStepTestStep)) {
+            return;
+        }
+
+        PickleStepTestStep step = (PickleStepTestStep) event.getTestStep();
+        String stepText = step.getStep().getText();
+
+        ExtentTest scenarioNode =
+                scenarioMap.get(event.getTestCase().getId().toString());
+
+        io.cucumber.plugin.event.Status cucumberStatus =
+                event.getResult().getStatus();
+
+        if (cucumberStatus == io.cucumber.plugin.event.Status.PASSED) {
+            scenarioNode.pass(stepText);
+        }
+
+        else if (cucumberStatus == io.cucumber.plugin.event.Status.FAILED) {
+
+            String base64Screenshot = getBase64Screenshot();
+
+            scenarioNode.fail(stepText);
+
+            if (base64Screenshot != null) {
+                scenarioNode.addScreenCaptureFromBase64String(
+                        base64Screenshot,
+                        "Failure Screenshot"
                 );
             }
-        });
 
-        publisher.registerHandlerFor(TestStepFinished.class, event -> {
-            if (stepTest.get() == null) return;
+            scenarioNode.fail(event.getResult().getError());
+        }
 
-            switch (event.getResult().getStatus()) {
-                case PASSED -> stepTest.get().pass("Step Passed");
-                case FAILED -> stepTest.get().fail(event.getResult().getError()); // Screenshot will be added in Hooks
-                default -> stepTest.get().skip("Skipped");
-            }
-        });
-
-        publisher.registerHandlerFor(TestRunFinished.class, event -> extent.flush());
+        else if (cucumberStatus == io.cucumber.plugin.event.Status.SKIPPED) {
+            scenarioNode.skip(stepText);
+        }
     }
+    private String getBase64Screenshot() {
+        try {
+            WebDriver driver = DriverFactory.getDriver();
+            return ((TakesScreenshot) driver)
+                    .getScreenshotAs(OutputType.BASE64);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+
+    private void onTestCaseFinished(TestCaseFinished event) {
+        extent.flush();
+    }
+
+    private String takeScreenshot(String scenarioName) {
+        try {
+            WebDriver driver = DriverFactory.getDriver();
+
+            String safeName = scenarioName.replaceAll("[^a-zA-Z0-9_-]", "_");
+
+            Path screenshotDir = Paths.get("target/test-output/screenshots");
+            Files.createDirectories(screenshotDir);
+
+            Path screenshotPath = screenshotDir.resolve(safeName + ".png");
+
+            byte[] screenshot = ((TakesScreenshot) driver)
+                    .getScreenshotAs(OutputType.BYTES);
+
+            Files.write(screenshotPath, screenshot);
+
+            // 🚨 IMPORTANT: return ABSOLUTE PATH
+            return screenshotPath.toAbsolutePath().toString();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+
 }
