@@ -6,6 +6,8 @@ import io.cucumber.plugin.event.*;
 import org.openqa.selenium.*;
 import driver.DriverFactory;
 import reporting.ExtentManager;
+import utils.ScreenhotUtil;
+
 import java.util.*;
 
 public class CucumberExtentListener implements ConcurrentEventListener {
@@ -46,7 +48,7 @@ public class CucumberExtentListener implements ConcurrentEventListener {
 
         else if (cucumberStatus == io.cucumber.plugin.event.Status.FAILED) {
 
-            String base64Screenshot = getBase64Screenshot();
+            String base64Screenshot = ScreenhotUtil.getBase64Screenshot();
 
             scenarioNode.fail(stepText);
 
@@ -62,16 +64,6 @@ public class CucumberExtentListener implements ConcurrentEventListener {
 
         else if (cucumberStatus == io.cucumber.plugin.event.Status.SKIPPED) {
             scenarioNode.skip(stepText);
-        }
-    }
-    private String getBase64Screenshot() {
-        try {
-            WebDriver driver = DriverFactory.getDriver();
-            return ((TakesScreenshot) driver)
-                    .getScreenshotAs(OutputType.BASE64);
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
         }
     }
 

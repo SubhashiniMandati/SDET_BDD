@@ -8,9 +8,8 @@ public class LoginPage {
 
     WebDriver driver = DriverFactory.getDriver();
 
-    By username = By.id("email");
-    By password = By.id("pass");
-    By loginBtn = By.id("loginbutton");
+   private By username = By.id("email");
+   private By password = By.id("pass");
 
     public void openLoginPage() {
         driver.get(ConfigReader.getBaseUrl());
@@ -19,7 +18,6 @@ public class LoginPage {
     public void login(String user, String pass) {
         driver.findElement(username).sendKeys(user);
         driver.findElement(password).sendKeys(pass);
-      //aitUtils.waitForClickable(loginBtn).click();
     }
 
     public boolean isHomePageDisplayed() {
