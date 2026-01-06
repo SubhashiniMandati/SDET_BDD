@@ -1,6 +1,9 @@
 package stepdefinitions;
 
+import config.ConfigReader;
+import context.TestContext;
 import io.cucumber.java.en.*;
+import io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties;
 import org.testng.Assert;
 import pages.LoginPage;
 import org.apache.logging.log4j.Logger;
@@ -20,7 +23,7 @@ public class LoginSteps{
 
     @When("user enters valid credentials")
     public void enter_credentials() {
-        loginPage.login("admin", "password");
+        loginPage.login(ConfigReader.getProperty(TestContext.ENV+".username"),ConfigReader.getProperty(TestContext.ENV+".password"));
         log.info("Entering valid credentials");
     }
 

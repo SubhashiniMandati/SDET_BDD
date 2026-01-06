@@ -1,6 +1,7 @@
 package pages;
 
 import config.ConfigReader;
+import context.TestContext;
 import driver.DriverFactory;
 import org.openqa.selenium.*;
 
@@ -12,7 +13,7 @@ public class LoginPage {
    private By password = By.id("pass");
 
     public void openLoginPage() {
-        driver.get(ConfigReader.getBaseUrl());
+        driver.get(ConfigReader.getProperty(TestContext.ENV+".base.url"));
     }
 
     public void login(String user, String pass) {

@@ -31,8 +31,8 @@ public class DriverFactory {
             return;
         }
 
-        String mode = ConfigReader.get("execution.mode");
-        String browser = ConfigReader.get("browser");
+        String mode = ConfigReader.getProperty("execution.mode");
+        String browser = ConfigReader.getProperty("browser");
 
         log.info("Initializing WebDriver | mode={} | browser={}", mode, browser);
 
@@ -68,7 +68,7 @@ public class DriverFactory {
 
     private static WebDriver createRemoteDriver(String browser) throws Exception {
 
-        URL gridUrl = new URL(ConfigReader.get("grid.url"));
+        URL gridUrl = new URL(ConfigReader.getProperty("grid.url"));
 
         switch (browser.toLowerCase()) {
             case "firefox":
