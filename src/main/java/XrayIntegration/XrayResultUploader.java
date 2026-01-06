@@ -1,5 +1,6 @@
 package XrayIntegration;
 
+import config.ConfigReader;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
@@ -7,8 +8,7 @@ import java.io.File;
 
 public class XrayResultUploader {
 
-    private static final String XRAY_UPLOAD_URL =
-            "https://xray.cloud.getxray.app/api/v2/import/execution/cucumber";
+    private static final String XRAY_UPLOAD_URL = ConfigReader.getProperty("Xray_ResultUploadUrl");
 
     /**
      * Upload results and CREATE a new Test Execution

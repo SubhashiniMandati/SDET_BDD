@@ -1,5 +1,6 @@
 package XrayIntegration;
 
+import config.ConfigReader;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
@@ -8,14 +9,13 @@ import java.util.Map;
 
 public class XrayAuthClient {
 
-    private static final String AUTH_URL =
-            "https://xray.cloud.getxray.app/api/v2/authenticate";
+    private static final String AUTH_URL = ConfigReader.getProperty("Xray_AuthUrl");
 
     public static String getAuthToken() {
 
         Map<String, String> body = new HashMap<>();
-        body.put("client_id", "YOUR_CLIENT_ID");
-        body.put("client_secret", "YOUR_CLIENT_SECRET");
+        body.put("client_id",ConfigReader.getProperty("Xray_CLIENT_ID"));
+        body.put("client_secret", ConfigReader.getProperty("Xray_CLIENT_SECRET"));
 
         Response response = RestAssured
                 .given()
