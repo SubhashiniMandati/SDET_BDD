@@ -23,5 +23,10 @@ pipeline {
                 ])
             }
         }
+        stage('Upload Results to Xray') {
+            steps {
+                sh 'mvn exec:java -Dexec.mainClass="utils.XrayCIRunner"'
+            }
+        }
     }
 }

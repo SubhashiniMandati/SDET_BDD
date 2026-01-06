@@ -7,7 +7,7 @@ Feature: Login Feature
     Then user should land on home page
 
 
-  @Smoke01
+  @Smoke
   Scenario: Invalid login
     Given user is on login page
     When user enters valid credentials

@@ -1,6 +1,6 @@
 Feature: Login Feature
 
-  @Smoke01
+  @Smoke
   Scenario: Valid login
     Given user is on login page
     When user enters valid credentials

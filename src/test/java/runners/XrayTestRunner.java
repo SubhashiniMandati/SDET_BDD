@@ -10,8 +10,7 @@ import io.cucumber.testng.CucumberOptions;
                 "json:target/cucumber-report/cucumber.json",
                 "listeners.CucumberExtentListener",
                 "rerun:target/rerun.txt"
-        },
-        tags = "@Smoke"
+        }
 )
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class XrayTestRunner extends AbstractTestNGCucumberTests {
 }
