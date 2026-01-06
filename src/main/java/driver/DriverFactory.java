@@ -2,6 +2,7 @@ package driver;
 
 import config.ConfigReader;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -18,13 +19,12 @@ public class DriverFactory {
     private static final Logger log =
             LoggerUtil.getLogger(DriverFactory.class);
 
-    // ❌ DO NOT CREATE DRIVER HERE
     public static WebDriver getDriver() {
         return driver.get();
     }
 
-    // ✅ CREATE DRIVER ONLY ONCE
-    public static void initDriver() {
+    // ✅ SINGLE ENTRY POINT
+    public static void initDriver(String scenarioName) {
 
         if (driver.get() != null) {
             log.warn("Driver already initialized");
@@ -39,10 +39,18 @@ public class DriverFactory {
         try {
             WebDriver webDriver;
 
-            if ("remote".equalsIgnoreCase(mode)) {
-                webDriver = createRemoteDriver(browser);
-            } else {
-                webDriver = createLocalDriver(browser);
+            switch (mode.toLowerCase()) {
+                case "grid":
+                    webDriver = createGridDriver(browser);
+                    break;
+
+                case "browserstack":
+                    webDriver = createBrowserStackDriver(browser, scenarioName);
+                    break;
+
+                case "local":
+                default:
+                    webDriver = createLocalDriver(browser);
             }
 
             driver.set(webDriver);
@@ -52,23 +60,29 @@ public class DriverFactory {
         }
     }
 
+    // 🔹 LOCAL EXECUTION
     private static WebDriver createLocalDriver(String browser) {
 
         switch (browser.toLowerCase()) {
             case "firefox":
+                log.info("Starting local Firefox");
                 return new FirefoxDriver(new FirefoxOptions());
 
             case "chrome":
             default:
+                log.info("Starting local Chrome");
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--start-maximized");
                 return new ChromeDriver(options);
         }
     }
 
-    private static WebDriver createRemoteDriver(String browser) throws Exception {
+    // 🔹 SELENIUM GRID
+    private static WebDriver createGridDriver(String browser) throws Exception {
 
         URL gridUrl = new URL(ConfigReader.getProperty("grid.url"));
+
+        log.info("Starting Grid execution on {}", gridUrl);
 
         switch (browser.toLowerCase()) {
             case "firefox":
@@ -80,7 +94,42 @@ public class DriverFactory {
         }
     }
 
+    // 🔹 BROWSERSTACK CLOUD
+    private static WebDriver createBrowserStackDriver(
+            String browser,
+            String scenarioName) throws Exception {
+
+        String username = ConfigReader.getProperty("browserstack.username");
+        String accessKey = ConfigReader.getProperty("browserstack.accesskey");
+
+        URL bsUrl = new URL(
+                "https://" + username + ":" + accessKey +
+                        "@hub-cloud.browserstack.com/wd/hub");
+
+        MutableCapabilities caps = new MutableCapabilities();
+
+        // Browser
+        caps.setCapability("browserName", browser);
+        caps.setCapability("browserVersion", "latest");
+
+        // BrowserStack Options
+        MutableCapabilities bsOptions = new MutableCapabilities();
+        bsOptions.setCapability("os", "Windows");
+        bsOptions.setCapability("osVersion", "11");
+        bsOptions.setCapability("projectName", "Cucumber Automation");
+        bsOptions.setCapability("buildName", "Build-" + System.currentTimeMillis());
+        bsOptions.setCapability("sessionName", scenarioName);
+
+        caps.setCapability("bstack:options", bsOptions);
+
+        log.info("Starting BrowserStack session for scenario: {}", scenarioName);
+
+        return new RemoteWebDriver(bsUrl, caps);
+    }
+
+    // 🔹 CLEANUP
     public static void quitDriver() {
+
         log.info("Attempting to quit WebDriver");
 
         if (driver.get() != null) {
