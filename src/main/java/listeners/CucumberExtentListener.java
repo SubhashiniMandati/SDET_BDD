@@ -1,23 +1,12 @@
 package listeners;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-
+import com.aventstack.extentreports.*;
 import io.cucumber.plugin.ConcurrentEventListener;
 import io.cucumber.plugin.event.*;
-
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-
+import org.openqa.selenium.*;
 import driver.DriverFactory;
 import reporting.ExtentManager;
-
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class CucumberExtentListener implements ConcurrentEventListener {
 
@@ -86,35 +75,7 @@ public class CucumberExtentListener implements ConcurrentEventListener {
         }
     }
 
-
     private void onTestCaseFinished(TestCaseFinished event) {
         extent.flush();
     }
-
-    private String takeScreenshot(String scenarioName) {
-        try {
-            WebDriver driver = DriverFactory.getDriver();
-
-            String safeName = scenarioName.replaceAll("[^a-zA-Z0-9_-]", "_");
-
-            Path screenshotDir = Paths.get("target/test-output/screenshots");
-            Files.createDirectories(screenshotDir);
-
-            Path screenshotPath = screenshotDir.resolve(safeName + ".png");
-
-            byte[] screenshot = ((TakesScreenshot) driver)
-                    .getScreenshotAs(OutputType.BYTES);
-
-            Files.write(screenshotPath, screenshot);
-
-            // 🚨 IMPORTANT: return ABSOLUTE PATH
-            return screenshotPath.toAbsolutePath().toString();
-
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
-    }
-
-
 }

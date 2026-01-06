@@ -16,9 +16,7 @@ public class Hooks {
     public void beforeScenario(Scenario scenario) {
         log.info("===== Scenario Started: {} =====", scenario.getName());
         DriverFactory.initDriver();
-        // WebDriver setup ONLY
     }
-
 
     @After
     public void afterScenario(Scenario scenario) {
