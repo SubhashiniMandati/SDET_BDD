@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class XrayAuthClient {
 
-    private static final String AUTH_URL = ConfigReader.getProperty("Xray_AuthUrl");
+    private static final String AUTH_URL = ConfigReader.getProperty("Xray_BaseUrl")+ConfigReader.getProperty("Xray_AuthEndPoint");
 
     public static String getAuthToken() {
 

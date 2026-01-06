@@ -8,7 +8,7 @@ import java.io.File;
 
 public class XrayResultUploader {
 
-    private static final String XRAY_UPLOAD_URL = ConfigReader.getProperty("Xray_ResultUploadUrl");
+    private static final String XRAY_UPLOAD_URL = ConfigReader.getProperty("Xray_BaseUrl")+ConfigReader.getProperty("Xray_ResultUploadEndPoint");
 
     /**
      * Upload results and CREATE a new Test Execution
