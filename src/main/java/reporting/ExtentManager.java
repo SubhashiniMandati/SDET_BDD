@@ -2,8 +2,6 @@ package reporting;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-
-import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
 

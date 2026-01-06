@@ -3,8 +3,6 @@ package stepdefinitions;
 import io.cucumber.java.en.*;
 import org.testng.Assert;
 import pages.LoginPage;
-import reporting.ExtentTestManager;
-import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import utils.LoggerUtil;
 
