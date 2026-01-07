@@ -5,6 +5,10 @@ import java.io.File;
 
 public class CucumberResultMerger {
 
+    public static void main(String[] args) throws Exception {
+        merge();
+        System.out.println("✅ Cucumber results merged successfully");
+    }
     public static void merge() throws Exception {
 
         ObjectMapper mapper = new ObjectMapper();

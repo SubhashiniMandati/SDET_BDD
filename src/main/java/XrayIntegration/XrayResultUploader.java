@@ -8,6 +8,15 @@ import java.io.File;
 
 public class XrayResultUploader {
 
+    public static void main(String[] args) throws Exception {
+        String executionKey = ConfigReader.getProperty("xray.execution.key");
+        String token = XrayAuthClient.getAuthToken();
+        File cucumberReport =
+                new File("target/cucumber-report/cucumber-final.json");
+        uploadResultToExecution(token, executionKey, cucumberReport);
+        System.out.println("✅ Results uploaded to Xray execution");
+    }
+
     public static void uploadResults() throws Exception {
 
         String executionKey = ConfigReader.getProperty("xray.execution.key");
@@ -30,7 +39,7 @@ public class XrayResultUploader {
     public static void uploadResult(String token) {
 
         File cucumberReport =
-                new File("target/cucumber-report/cucumber.json");
+                new File("target/cucumber-report/cucumber-final.json");
 
         Response response = RestAssured
                 .given()
@@ -52,7 +61,7 @@ public class XrayResultUploader {
             File resultFile) {
 
         File cucumberReport =
-                new File("target/cucumber-report/cucumber.json");
+                new File("target/cucumber-report/cucumber-final.json");
 
         Response response = RestAssured
                 .given()

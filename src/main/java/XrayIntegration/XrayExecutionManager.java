@@ -4,6 +4,10 @@ import config.ConfigReader;
 
 public class XrayExecutionManager {
 
+    public static void main(String[] args) throws Exception {
+        exportFeaturesForExecution();
+        System.out.println("✅ Features exported successfully for execution ");
+    }
     public static void exportFeaturesForExecution() throws Exception {
 
         String executionKey = ConfigReader.getProperty("xray.execution.key");
@@ -11,7 +15,6 @@ public class XrayExecutionManager {
 
         XrayFeatureExporter.exportFeatures(token, executionKey);
         FeatureUnzipper.unzipFeatures();
-
         System.out.println("✅ Features exported successfully for execution " + executionKey);
     }
 }
