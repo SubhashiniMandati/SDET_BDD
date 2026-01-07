@@ -8,6 +8,20 @@ import java.io.File;
 
 public class XrayResultUploader {
 
+    public static void uploadResults() throws Exception {
+
+        String executionKey = ConfigReader.getProperty("xray.execution.key");
+        String token = XrayAuthClient.getAuthToken();
+
+        File resultFile = new File("target/cucumber-final.json");
+
+        if (!resultFile.exists()) {
+            throw new RuntimeException("❌ Cucumber result file not found");
+        }
+
+        uploadResultToExecution(token, executionKey, resultFile);
+        System.out.println("✅ Results uploaded to Xray execution " + executionKey);
+    }
     private static final String XRAY_UPLOAD_URL = ConfigReader.getProperty("Xray_BaseUrl")+ConfigReader.getProperty("Xray_ResultUploadEndPoint");
 
     /**
@@ -34,7 +48,8 @@ public class XrayResultUploader {
      */
     public static void uploadResultToExecution(
             String token,
-            String testExecutionKey) {
+            String testExecutionKey,
+            File resultFile) {
 
         File cucumberReport =
                 new File("target/cucumber-report/cucumber.json");
@@ -52,3 +67,4 @@ public class XrayResultUploader {
         System.out.println(response.asPrettyString());
     }
 }
+

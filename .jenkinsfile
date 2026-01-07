@@ -7,13 +7,45 @@ pipeline {
                 sh 'docker-compose up -d'
             }
         }
-
-        stage('Run Tests') {
-            steps {
-                sh 'mvn clean test'
-            }
+        stage('Export Xray Tests') {
+                steps {
+                    sh 'java -cp target/test-classes XrayIntegration.XrayExecutionManager'
+                }
         }
 
+        stage('Initial Test Run') {
+                steps {
+                    sh 'mvn clean test -DskipRerun=true'
+                }
+                post {
+                    always {
+                        archiveArtifacts artifacts: 'target/cucumber.json'
+                    }
+                }
+        }
+        stage('Rerun Failed Tests') {
+                when {
+                    expression { fileExists('target/rerun.txt') }
+                }
+                steps {
+                    sh 'mvn test -Dtest=RerunXrayTestRunner'
+                }
+                post {
+                    always {
+                        archiveArtifacts artifacts: 'target/cucumber-rerun.json'
+                    }
+                }
+        }
+        stage('Merge Results') {
+                steps {
+                    sh 'java -cp target/test-classes utils.CucumberResultMerger'
+                }
+        }
+        stage('Upload Results to Xray') {
+                steps {
+                    sh 'java -cp target/test-classes XrayIntegration.XrayResultUploader'
+                }
+        }
         stage('Reports') {
             steps {
                 publishHTML(target: [
@@ -21,11 +53,6 @@ pipeline {
                     reportFiles: 'cucumber-report.html',
                     reportName: 'Cucumber Report'
                 ])
-            }
-        }
-        stage('Upload Results to Xray') {
-            steps {
-                sh 'mvn exec:java -Dexec.mainClass="utils.XrayCIRunner"'
             }
         }
     }
