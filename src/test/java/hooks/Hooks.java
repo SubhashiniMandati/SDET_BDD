@@ -16,44 +16,49 @@ public class Hooks {
 
     private static final Logger log =
             LoggerUtil.getLogger(Hooks.class);
+    String platform = ConfigReader.getProperty("platform");
+
 
     @Before
     public void beforeScenario(Scenario scenario) {
-
+        log.info("===== Before Hook Executing | Platform: " + platform + " =====");
         log.info("===== Scenario Started: {} =====", scenario.getName());
+        if(platform.equalsIgnoreCase("web")){
+            // Initializes Local / Grid / BrowserStack
+            DriverFactory.initDriver(scenario.getName());
+        }
 
-        // Initializes Local / Grid / BrowserStack
-        DriverFactory.initDriver(scenario.getName());
     }
 
     @After
     public void afterScenario(Scenario scenario) {
 
-        log.info("===== Scenario Finished: {} | Status: {} =====",
-                scenario.getName(),
-                scenario.getStatus());
+        if (platform.equalsIgnoreCase("web")){
+            log.info("===== Scenario Finished: {} | Status: {} =====",
+                    scenario.getName(),
+                    scenario.getStatus());
 
-        WebDriver driver = DriverFactory.getDriver();
+            WebDriver driver = DriverFactory.getDriver();
 
-        // 🔹 Attach screenshot for failed scenarios (ALL modes)
-        if (scenario.isFailed() && driver instanceof TakesScreenshot) {
-            try {
-                byte[] screenshot =
-                        ((TakesScreenshot) driver)
-                                .getScreenshotAs(OutputType.BYTES);
-                scenario.attach(screenshot, "image/png", scenario.getName());
-            } catch (Exception e) {
-                log.warn("Screenshot capture failed", e);
+            // 🔹 Attach screenshot for failed scenarios (ALL modes)
+            if (scenario.isFailed() && driver instanceof TakesScreenshot) {
+                try {
+                    byte[] screenshot =
+                            ((TakesScreenshot) driver)
+                                    .getScreenshotAs(OutputType.BYTES);
+                    scenario.attach(screenshot, "image/png", scenario.getName());
+                } catch (Exception e) {
+                    log.warn("Screenshot capture failed", e);
+                }
             }
+
+            // 🔹 Update BrowserStack status ONLY if BrowserStack execution
+            updateBrowserStackStatus(scenario, driver);
+
+            // 🔹 Cleanup
+            DriverFactory.quitDriver();
         }
-
-        // 🔹 Update BrowserStack status ONLY if BrowserStack execution
-        updateBrowserStackStatus(scenario, driver);
-
-        // 🔹 Cleanup
-        DriverFactory.quitDriver();
     }
-
     // =====================================================
     // BrowserStack Status Update (SAFE & ISOLATED)
     // =====================================================
