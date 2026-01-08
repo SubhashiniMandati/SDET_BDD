@@ -1,7 +1,6 @@
 package stepdefinitions;
 
 import api.ApiResponse;
-import api.UserApiClient;
 import config.ConfigReader;
 import context.TestContext;
 import io.cucumber.java.en.*;

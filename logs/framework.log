@@ -18,3 +18,9 @@
 2026-01-08 21:10:53 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
 2026-01-08 21:10:58 INFO  stepdefinitions.ApiSteps - user is created via API
 2026-01-08 21:10:58 INFO  stepdefinitions.ApiSteps - user is displayed7
+2026-01-08 21:15:49 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-08 21:15:49 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
+2026-01-08 21:16:40 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-08 21:16:40 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
+2026-01-08 21:16:45 INFO  stepdefinitions.ApiSteps - user is created via API
+2026-01-08 21:16:45 INFO  stepdefinitions.ApiSteps - user is displayednull
