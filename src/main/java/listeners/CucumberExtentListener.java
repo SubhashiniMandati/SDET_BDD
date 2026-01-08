@@ -6,7 +6,7 @@ import io.cucumber.plugin.event.*;
 import org.openqa.selenium.*;
 import driver.DriverFactory;
 import reporting.ExtentManager;
-import utils.ScreenhotUtil;
+import utils.web.ScreenhotUtil;
 
 import java.util.*;
 

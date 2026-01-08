@@ -1,4 +1,4 @@
-package utils;
+package utils.web;
 
 import driver.DriverFactory;
 import org.openqa.selenium.OutputType;

@@ -7,7 +7,7 @@ import io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties;
 import org.testng.Assert;
 import pages.LoginPage;
 import org.apache.logging.log4j.Logger;
-import utils.LoggerUtil;
+import log.LoggerUtil;
 
 
 public class LoginSteps{
