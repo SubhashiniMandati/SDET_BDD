@@ -22,7 +22,7 @@ public class ApiSteps {
     @Given("user is created via API")
     public void create_user() {
         HashMap<String, String> headers= new HashMap<>();
-        Response response= ApiResponse.getApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.api_base_url"),headers, "");
+        Response response= ApiResponse.getApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.api_base_path"),headers, "");
         context.userId = response.jsonPath().get("id");
         log.info("user is created via API");
     }

@@ -15,7 +15,7 @@ public class ApiLoggingUtil {
      * and response logging.
      */
 
-    private static final String LOGGING_LEVEL = System.getProperty("LOG_LEVEL","abc");
+    private static final String LOGGING_LEVEL = System.getProperty("LOG_LEVEL","LOW");
 
     public static List<Filter> getLoggingFilter() {
 

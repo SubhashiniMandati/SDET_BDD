@@ -24,3 +24,19 @@
 2026-01-08 21:16:40 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
 2026-01-08 21:16:45 INFO  stepdefinitions.ApiSteps - user is created via API
 2026-01-08 21:16:45 INFO  stepdefinitions.ApiSteps - user is displayednull
+2026-01-08 21:19:16 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-08 21:19:16 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
+2026-01-08 21:19:21 INFO  stepdefinitions.ApiSteps - user is created via API
+2026-01-08 21:19:21 INFO  stepdefinitions.ApiSteps - user is displayednull
+2026-01-08 21:19:58 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-08 21:19:58 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
+2026-01-08 21:20:02 INFO  stepdefinitions.ApiSteps - user is created via API
+2026-01-08 21:20:02 INFO  stepdefinitions.ApiSteps - user is displayednull
+2026-01-08 21:22:06 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-08 21:22:06 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
+2026-01-08 21:22:10 INFO  stepdefinitions.ApiSteps - user is created via API
+2026-01-08 21:22:10 INFO  stepdefinitions.ApiSteps - user is displayed7
+2026-01-08 21:23:36 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-08 21:23:36 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
+2026-01-08 21:23:40 INFO  stepdefinitions.ApiSteps - user is created via API
+2026-01-08 21:23:40 INFO  stepdefinitions.ApiSteps - user is displayed7

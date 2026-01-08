@@ -12,7 +12,7 @@ public static Response commonResponseGet(String baseUrl, String basePath, HashMa
     Response response=requestSpecification.relaxedHTTPSValidation()
         .when()
         .urlEncodingEnabled(false)
-       // .filters(getLoggingFilter())
+        .filters(getLoggingFilter())
         .baseUri(baseUrl)
         .basePath(basePath)
         .headers(headers)
