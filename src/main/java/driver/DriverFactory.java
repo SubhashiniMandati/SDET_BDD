@@ -13,6 +13,8 @@ import utils.LoggerUtil;
 
 import java.net.URL;
 
+import static utils.web.WaitUtils.applyTimeouts;
+
 public class DriverFactory {
 
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
@@ -52,7 +54,7 @@ public class DriverFactory {
                 default:
                     webDriver = createLocalDriver(browser);
             }
-
+            applyTimeouts(webDriver);
             driver.set(webDriver);
 
         } catch (Exception e) {

@@ -4,6 +4,7 @@ import config.ConfigReader;
 import context.TestContext;
 import driver.DriverFactory;
 import org.openqa.selenium.*;
+import utils.web.WaitUtils;
 
 public class LoginPage {
 
@@ -17,8 +18,8 @@ public class LoginPage {
     }
 
     public void login(String user, String pass) {
-        driver.findElement(username).sendKeys(user);
-        driver.findElement(password).sendKeys(pass);
+        WaitUtils.waitForVisible(username).sendKeys(user);
+        WaitUtils.waitForVisible(password).sendKeys(pass);
     }
 
     public boolean isHomePageDisplayed() {
