@@ -29,7 +29,7 @@ public class ApiSteps {
 
     @Given("user is displayed")
     public void user_is_displayed() {
-        log.info("user is displayed" +context.userId);
+        log.info("user is displayed " +context.userId);
     }
 }
 
