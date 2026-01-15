@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
                 "listeners.CucumberExtentListener",
                 "rerun:target/rerun.txt"
         },
-        tags = "@api"
+        tags = "@Regression01"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 }

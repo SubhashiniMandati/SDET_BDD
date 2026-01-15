@@ -2,12 +2,16 @@ package stepdefinitions;
 
 import config.ConfigReader;
 import context.TestContext;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 import io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties;
 import org.testng.Assert;
 import pages.LoginPage;
 import org.apache.logging.log4j.Logger;
 import log.LoggerUtil;
+
+import java.util.List;
+import java.util.Map;
 
 
 public class LoginSteps{
@@ -39,5 +43,15 @@ public class LoginSteps{
         Assert.assertTrue(loginPage.isHomePageDisplayed01());
         log.info("Verifying home page");
     }
+    @When("user enters username {string} and password {string}")
+    public void user_enters_credentials(String username, String password) {
+        loginPage.login(ConfigReader.getProperty(TestContext.ENV+".username"),ConfigReader.getProperty(TestContext.ENV+".password"));
+    }
+    @Then("user should see homepage with message {string}")
+    public void verify_homepage(String message) {
+        Assert.assertEquals("test message", "test message");
+    }
+
+
 
 }

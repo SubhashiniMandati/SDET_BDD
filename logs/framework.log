@@ -1,42 +1,156 @@
-2026-01-08 21:04:51 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-08 21:04:51 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-08 21:04:56 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-08 21:04:56 INFO  stepdefinitions.ApiSteps - user is displayed7
-2026-01-08 21:08:42 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-08 21:08:42 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-08 21:08:46 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-08 21:08:47 INFO  stepdefinitions.ApiSteps - user is displayed7
-2026-01-08 21:09:40 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-08 21:09:40 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-08 21:09:45 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-08 21:09:45 INFO  stepdefinitions.ApiSteps - user is displayed7
-2026-01-08 21:10:07 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-08 21:10:07 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-08 21:10:12 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-08 21:10:12 INFO  stepdefinitions.ApiSteps - user is displayed7
-2026-01-08 21:10:53 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-08 21:10:53 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-08 21:10:58 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-08 21:10:58 INFO  stepdefinitions.ApiSteps - user is displayed7
-2026-01-08 21:15:49 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-08 21:15:49 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-08 21:16:40 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-08 21:16:40 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-08 21:16:45 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-08 21:16:45 INFO  stepdefinitions.ApiSteps - user is displayednull
-2026-01-08 21:19:16 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-08 21:19:16 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-08 21:19:21 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-08 21:19:21 INFO  stepdefinitions.ApiSteps - user is displayednull
-2026-01-08 21:19:58 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-08 21:19:58 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-08 21:20:02 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-08 21:20:02 INFO  stepdefinitions.ApiSteps - user is displayednull
-2026-01-08 21:22:06 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-08 21:22:06 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-08 21:22:10 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-08 21:22:10 INFO  stepdefinitions.ApiSteps - user is displayed7
-2026-01-08 21:23:36 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-08 21:23:36 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-08 21:23:40 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-08 21:23:40 INFO  stepdefinitions.ApiSteps - user is displayed7
+2026-01-15 22:28:30 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:28:30 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-15 22:28:30 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:28:30 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:28:44 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-15 22:28:44 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-15 22:28:44 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:28:45 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:28:46 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:28:46 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-15 22:28:46 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:28:46 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:28:50 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-15 22:28:50 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-15 22:28:50 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:28:51 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:35:14 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:35:14 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-15 22:35:14 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:35:14 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:35:20 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-15 22:35:20 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-15 22:35:20 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:35:20 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:35:20 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:35:20 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-15 22:35:20 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:35:20 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:35:24 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-15 22:35:24 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-15 22:35:24 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:35:25 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:38:17 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:38:17 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 22:38:17 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:38:17 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:38:20 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: UNDEFINED =====
+2026-01-15 22:38:20 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:38:20 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:40:56 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:40:56 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 22:40:56 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:40:56 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:41:01 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-15 22:41:01 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: UNDEFINED =====
+2026-01-15 22:41:01 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:41:02 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:44:18 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:44:18 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 22:44:18 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:44:18 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:44:23 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-15 22:44:23 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: UNDEFINED =====
+2026-01-15 22:44:23 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:44:24 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:48:29 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:48:29 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 22:48:29 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:48:29 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:48:34 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-15 22:48:34 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: UNDEFINED =====
+2026-01-15 22:48:34 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:48:35 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:49:37 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:49:37 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 22:49:37 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:49:37 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:49:42 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-15 22:49:42 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: UNDEFINED =====
+2026-01-15 22:49:42 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:49:43 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:52:05 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:52:05 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 22:52:05 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:52:05 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:52:08 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-15 22:52:08 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: UNDEFINED =====
+2026-01-15 22:52:08 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:52:08 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:55:11 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:55:11 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 22:55:11 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:55:11 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:55:13 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: UNDEFINED =====
+2026-01-15 22:55:13 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:55:13 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:57:23 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:57:23 INFO  hooks.Hooks - ===== Scenario Started: Exa02 =====
+2026-01-15 22:57:23 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:57:23 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:57:26 INFO  hooks.Hooks - ===== Scenario Finished: Exa02 | Status: UNDEFINED =====
+2026-01-15 22:57:26 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:57:26 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:58:49 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:58:49 INFO  hooks.Hooks - ===== Scenario Started: Exa02 =====
+2026-01-15 22:58:49 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:58:49 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:58:51 INFO  hooks.Hooks - ===== Scenario Finished: Exa02 | Status: UNDEFINED =====
+2026-01-15 22:58:51 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:58:51 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:59:33 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:59:33 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 22:59:33 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:59:33 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:59:35 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: FAILED =====
+2026-01-15 22:59:35 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:59:36 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 22:59:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 22:59:39 INFO  hooks.Hooks - ===== Scenario Started: Exa02 =====
+2026-01-15 22:59:39 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 22:59:39 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 22:59:41 INFO  hooks.Hooks - ===== Scenario Finished: Exa02 | Status: PASSED =====
+2026-01-15 22:59:41 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 22:59:42 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 23:01:03 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 23:01:03 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 23:01:03 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 23:01:03 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 23:01:05 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: FAILED =====
+2026-01-15 23:01:05 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 23:01:05 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 23:02:30 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 23:02:30 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 23:02:30 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 23:02:30 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 23:02:32 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: FAILED =====
+2026-01-15 23:02:32 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 23:02:33 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 23:02:53 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 23:02:53 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 23:02:53 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 23:02:53 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 23:02:55 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: PASSED =====
+2026-01-15 23:02:55 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 23:02:56 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 23:02:56 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 23:02:56 INFO  hooks.Hooks - ===== Scenario Started: Exa02 =====
+2026-01-15 23:02:56 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 23:02:56 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 23:03:00 INFO  hooks.Hooks - ===== Scenario Finished: Exa02 | Status: PASSED =====
+2026-01-15 23:03:00 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 23:03:01 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 23:04:00 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 23:04:00 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-15 23:04:00 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 23:04:00 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 23:04:07 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: PASSED =====
+2026-01-15 23:04:07 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 23:04:07 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-15 23:04:09 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-15 23:04:09 INFO  hooks.Hooks - ===== Scenario Started: Exa02 =====
+2026-01-15 23:04:09 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-15 23:04:09 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-15 23:04:12 INFO  hooks.Hooks - ===== Scenario Finished: Exa02 | Status: PASSED =====
+2026-01-15 23:04:12 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-15 23:04:12 INFO  driver.DriverFactory - WebDriver quit successfully
