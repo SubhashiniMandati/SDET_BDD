@@ -1,6 +1,7 @@
 package hooks;
 
 import config.ConfigReader;
+import context.TestContext;
 import driver.DriverFactory;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -16,14 +17,13 @@ public class Hooks {
 
     private static final Logger log =
             LoggerUtil.getLogger(Hooks.class);
-    String platform = ConfigReader.getProperty("platform");
 
 
     @Before
     public void beforeScenario(Scenario scenario) {
-        log.info("===== Before Hook Executing | Platform: " + platform + " =====");
+        log.info("===== Before Hook Executing | Platform: " + TestContext.platform + " =====");
         log.info("===== Scenario Started: {} =====", scenario.getName());
-        if(platform.equalsIgnoreCase("web")){
+        if(TestContext.platform.equalsIgnoreCase("web")){
             // Initializes Local / Grid / BrowserStack
             DriverFactory.initDriver(scenario.getName());
         }
@@ -33,7 +33,7 @@ public class Hooks {
     @After
     public void afterScenario(Scenario scenario) {
 
-        if (platform.equalsIgnoreCase("web")){
+        if (TestContext.platform.equalsIgnoreCase("web")){
             log.info("===== Scenario Finished: {} | Status: {} =====",
                     scenario.getName(),
                     scenario.getStatus());

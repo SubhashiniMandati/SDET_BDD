@@ -3,7 +3,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = "src/test/resources/features/API",
         glue = {"stepdefinitions","hooks"},
         plugin = {
                 "pretty",
@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
                 "listeners.CucumberExtentListener",
                 "rerun:target/rerun.txt"
         },
-        tags = "@Regression01"
+        tags = "@api"
 )
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class APITestRunner extends AbstractTestNGCucumberTests {
 }

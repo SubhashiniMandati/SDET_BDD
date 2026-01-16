@@ -21,4 +21,18 @@ public static Response commonResponseGet(String baseUrl, String basePath, HashMa
         .extract().response();
     return response;
     }
+
+    public static Response commonResponsePost(String baseUrl, String basePath, HashMap<String ,String> headers, RequestSpecification requestSpecification){
+        Response response=requestSpecification.relaxedHTTPSValidation()
+                .when()
+                .urlEncodingEnabled(false)
+                .filters(getLoggingFilter())
+                .baseUri(baseUrl)
+                .basePath(basePath)
+                .headers(headers)
+                .post().then()
+                .assertThat()
+                .extract().response();
+        return response;
+    }
 }

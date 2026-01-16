@@ -1,6 +1,8 @@
 package listeners;
 
 import com.aventstack.extentreports.*;
+import config.ConfigReader;
+import context.TestContext;
 import io.cucumber.plugin.ConcurrentEventListener;
 import io.cucumber.plugin.event.*;
 import org.openqa.selenium.*;
@@ -47,16 +49,17 @@ public class CucumberExtentListener implements ConcurrentEventListener {
         }
 
         else if (cucumberStatus == io.cucumber.plugin.event.Status.FAILED) {
+            if(TestContext.platform.equalsIgnoreCase("web")) {
+                String base64Screenshot = ScreenhotUtil.getBase64Screenshot();
 
-            String base64Screenshot = ScreenhotUtil.getBase64Screenshot();
+                scenarioNode.fail(stepText);
 
-            scenarioNode.fail(stepText);
-
-            if (base64Screenshot != null) {
-                scenarioNode.addScreenCaptureFromBase64String(
-                        base64Screenshot,
-                        "Failure Screenshot"
-                );
+                if (base64Screenshot != null) {
+                    scenarioNode.addScreenCaptureFromBase64String(
+                            base64Screenshot,
+                            "Failure Screenshot"
+                    );
+                }
             }
 
             scenarioNode.fail(event.getResult().getError());
