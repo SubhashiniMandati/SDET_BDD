@@ -1,6 +1,6 @@
 Feature: Order E2E Flow
 
-  @api01
+  @api
   Scenario: Get single object
     Given user get object via API
     Then validate specific object response

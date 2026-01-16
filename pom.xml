@@ -116,11 +116,25 @@
             </properties>
         </profile>
         <profile>
+            <id>api-rerun</id>
+            <properties>
+                <runner.class>runner.ApiReRunTestRunner</runner.class>
+            </properties>
+        </profile>
+
+        <profile>
             <id>web</id>
             <properties>
                 <runner.class>runner.WebTestRunner</runner.class>
             </properties>
         </profile>
+        <profile>
+            <id>web-rerun</id>
+            <properties>
+                <runner.class>runner.WebReRunTestRunner</runner.class>
+            </properties>
+        </profile>
+
     </profiles>
 
 

@@ -130,7 +130,7 @@ public class ApiSteps {
     public void object_is_deleted() {
         String message = context.response.jsonPath().getString("message");
         log.info("object is deleted" +context.response.jsonPath().getString("message"));
-        Assert.assertEquals(message,  "Object with id = "+id+" has been deleted." );
+        Assert.assertEquals(message,  "Object with id = "+id+" has been deleted.123" );
     }
 }
 

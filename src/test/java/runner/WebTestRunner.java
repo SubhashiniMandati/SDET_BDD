@@ -7,9 +7,9 @@ import io.cucumber.testng.CucumberOptions;
         glue = {"stepdefinitions","hooks"},
         plugin = {
                 "pretty",
-                "json:target/cucumber-report/cucumber.json",
+                "json:target/cucumber-report/web-cucumber.json",
                 "listeners.CucumberExtentListener",
-                "rerun:target/rerun.txt"
+                "rerun:target/rerun/web-rerun.txt"
         },
         tags = "@Smoke"
 )
