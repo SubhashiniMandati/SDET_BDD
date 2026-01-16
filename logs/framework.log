@@ -695,3 +695,18 @@
 2026-01-16 21:55:08 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
 2026-01-16 21:55:08 INFO  driver.DriverFactory - Attempting to quit WebDriver
 2026-01-16 21:55:10 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-16 22:00:04 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 22:00:04 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
+2026-01-16 22:00:08 INFO  stepdefinitions.ApiSteps - user get object via API
+2026-01-16 22:00:11 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 22:00:11 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
+2026-01-16 22:00:12 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 22:00:12 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc7a498956230
+2026-01-16 22:00:12 INFO  stepdefinitions.ApiSteps - object is deleted via API
+2026-01-16 22:00:12 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc7a498956230 has been deleted.
+2026-01-16 22:00:40 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 22:00:40 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
+2026-01-16 22:00:45 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 22:00:46 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc7a518606231
+2026-01-16 22:00:47 INFO  stepdefinitions.ApiSteps - object is deleted via API
+2026-01-16 22:00:47 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc7a518606231 has been deleted.

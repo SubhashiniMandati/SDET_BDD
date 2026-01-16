@@ -8,7 +8,8 @@ import io.cucumber.testng.CucumberOptions;
         plugin = {
                 "pretty",
                 "json:target/cucumber-report/web-cucumber-rerun.json",
-                "listeners.CucumberExtentListener"
+                "listeners.CucumberExtentListener",
+                "html:target/web-cucumber-rerun-report.html"
         }
 )
 public class WebReRunTestRunner extends AbstractTestNGCucumberTests {
