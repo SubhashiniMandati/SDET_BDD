@@ -278,3 +278,142 @@
 2026-01-16 16:15:20 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc668dd505d81
 2026-01-16 16:15:21 INFO  stepdefinitions.ApiSteps - object is deleted via API
 2026-01-16 16:15:21 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc668dd505d81 has been deleted.
+2026-01-16 16:36:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:36:39 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
+2026-01-16 16:36:42 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 16:36:43 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc67c6d685dc8
+2026-01-16 16:38:47 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:38:47 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
+2026-01-16 16:38:48 INFO  stepdefinitions.ApiSteps - user get object via API
+2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 16:38:50 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
+2026-01-16 16:38:50 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 16:38:50 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc67e63c95dcf
+2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
+2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc67e65715dd0
+2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is updated via API
+2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc67e65715dd0
+2026-01-16 16:38:51 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:38:51 INFO  hooks.Hooks - ===== Scenario Started: Partially Update object =====
+2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc67e68495dd1
+2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is partially updated via API
+2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc67e68495dd1
+2026-01-16 16:38:52 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:38:52 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
+2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc67e6a825dd2
+2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is deleted via API
+2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc67e6a825dd2 has been deleted.
+2026-01-16 16:47:43 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:47:43 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 16:47:45 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 16:49:21 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:49:21 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 16:49:23 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 16:51:17 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:51:17 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 16:51:19 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 16:52:54 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:52:54 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 16:52:56 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 16:53:23 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:53:23 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 16:53:25 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 16:54:08 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:54:08 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 16:54:10 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 16:57:09 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:57:09 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 16:57:11 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 16:58:16 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:58:16 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 16:58:18 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 16:59:08 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 16:59:08 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 16:59:10 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 17:00:17 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:00:17 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 17:00:19 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 17:00:53 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:00:53 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 17:00:55 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 17:01:26 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:01:26 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 17:01:28 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 17:04:34 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:04:34 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 17:04:36 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 17:06:14 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:06:14 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 17:06:17 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 17:07:55 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:07:55 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 17:07:57 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 17:10:44 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:10:44 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 17:10:46 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 17:11:25 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:11:25 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 17:11:27 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 17:14:28 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:14:28 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
+2026-01-16 17:14:30 INFO  stepdefinitions.ApiSteps - user get object via API
+2026-01-16 17:15:23 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:15:23 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
+2026-01-16 17:15:26 INFO  stepdefinitions.ApiSteps - user get object via API
+2026-01-16 17:16:12 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:16:12 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
+2026-01-16 17:16:14 INFO  stepdefinitions.ApiSteps - user get object via API
+2026-01-16 17:18:08 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:18:08 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
+2026-01-16 17:18:11 INFO  stepdefinitions.ApiSteps - user get object via API
+2026-01-16 17:18:36 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:18:36 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 17:18:38 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 17:19:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:19:39 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
+2026-01-16 17:19:41 INFO  stepdefinitions.ApiSteps - user get list of object via API
+2026-01-16 17:23:25 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:23:25 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
+2026-01-16 17:23:27 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 17:23:28 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6a73b6d5e41
+2026-01-16 17:24:14 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:24:14 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
+2026-01-16 17:24:16 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 17:24:17 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6a7fce95e43
+2026-01-16 17:25:13 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:25:13 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
+2026-01-16 17:25:15 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 17:25:16 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6a8e09d5e47
+2026-01-16 17:25:16 INFO  stepdefinitions.ApiSteps - object is updated via API
+2026-01-16 17:25:16 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc6a8e09d5e47
+2026-01-16 17:27:26 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:27:26 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
+2026-01-16 17:27:28 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 17:27:29 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6aaeae55e48
+2026-01-16 17:27:30 INFO  stepdefinitions.ApiSteps - object is updated via API
+2026-01-16 17:27:30 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc6aaeae55e48
+2026-01-16 17:28:09 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:28:09 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
+2026-01-16 17:28:12 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 17:28:12 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6ab93275e4a
+2026-01-16 17:28:13 INFO  stepdefinitions.ApiSteps - object is updated via API
+2026-01-16 17:28:13 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc6ab93275e4a
+2026-01-16 17:28:33 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:28:33 INFO  hooks.Hooks - ===== Scenario Started: Partially Update object =====
+2026-01-16 17:28:36 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 17:28:37 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6abf3385e4c
+2026-01-16 17:28:37 INFO  stepdefinitions.ApiSteps - object is partially updated via API
+2026-01-16 17:28:37 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc6abf3385e4c
+2026-01-16 17:28:56 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-16 17:28:56 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
+2026-01-16 17:28:59 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-16 17:28:59 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6ac4ace5e4d
+2026-01-16 17:29:00 INFO  stepdefinitions.ApiSteps - object is deleted via API
+2026-01-16 17:29:00 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc6ac4ace5e4d has been deleted.

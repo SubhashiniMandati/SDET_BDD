@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 import api.ApiResponse;
+import api.PayloadReader;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import config.ConfigReader;
@@ -17,16 +18,14 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 
 public class ApiSteps {
-    private static final Logger log =
-            LoggerUtil.getLogger(ApiSteps.class);
+    private static final Logger log = LoggerUtil.getLogger(ApiSteps.class);
     private TestContext context;
     String id;
-
-    ObjectMapper mapper = new ObjectMapper();
     JsonNode root;
+
     public ApiSteps(TestContext context) throws IOException {
         this.context = context;
-        root = mapper.readTree(new File("src/test/resources/payloads/qc/objectPayloads.json"));
+        root = PayloadReader.read(context.ENV, "objectPayloads.json");;
     }
 
     @Given("user get object via API")
@@ -35,16 +34,16 @@ public class ApiSteps {
         context.response= ApiResponse.getApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.api_base_path"),headers, "");
         log.info("user get object via API");
     }
-    @Then("validate object response")
-    public void validate_object_response() {
-        Assert.assertEquals(context.response.jsonPath().get("id"), "7" );
-        Assert.assertEquals(context.response.jsonPath().get("name"), "Apple MacBook Pro 16" );
+    @Then("validate specific object response")
+    public void validate_specific_object_response() {
+        // Read GET payload
+        JsonNode getPayload = root.get("get");
+        Assert.assertEquals(context.response.jsonPath().getString("id"), "7" );
+        Assert.assertEquals(context.response.jsonPath().getString("name"), getPayload.get("name").asText());
         Object year = context.response.jsonPath().get("data.year");
-       Assert.assertEquals(String.valueOf(year), "2019" );
+        Assert.assertEquals(String.valueOf(year), getPayload.get("data").get("year").asText() );
         Object price = context.response.jsonPath().get("data.price");
-        Assert.assertEquals(String.valueOf(price), "1849.99" );
-        //Assert.assertEquals(context.response.jsonPath().get("data.CPUmodel"), "Intel Core i9" );
-        //Assert.assertEquals(context.response.jsonPath().get("data.Hard disk size"), "1 TB" );
+        Assert.assertEquals(String.valueOf(price), getPayload.get("data").get("price").asText() );
     }
 
     @Given("user get list of object via API")
@@ -53,20 +52,21 @@ public class ApiSteps {
         context.response= ApiResponse.getApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects"),headers, "");
         log.info("user get list of object via API");
     }
-    @Then("validate specific object response")
-    public void validate_specific_object_response() {
+
+    @Then("validate object response")
+    public void validate_object_response() {
+        // Read GET payload
+        JsonNode getPayload = root.get("get");
         Assert.assertEquals(context.response.jsonPath().getString("[6].id"), "7" );
-        Assert.assertEquals(context.response.jsonPath().getString("[6].name"), "Apple MacBook Pro 16" );
+        Assert.assertEquals(context.response.jsonPath().getString("[6].name"), getPayload.get("name").asText());
         Object year = context.response.jsonPath().get("[6].data.year");
-        Assert.assertEquals(String.valueOf(year), "2019" );
+        Assert.assertEquals(String.valueOf(year), getPayload.get("data").get("year").asText() );
         Object price = context.response.jsonPath().get("[6].data.price");
-        Assert.assertEquals(String.valueOf(price), "1849.99" );
-        //Assert.assertEquals(context.response.jsonPath().get("data.CPUmodel"), "Intel Core i9" );
-        //Assert.assertEquals(context.response.jsonPath().get("data.Hard disk size"), "1 TB" );
+        Assert.assertEquals(String.valueOf(price), getPayload.get("data").get("price").asText() );
     }
 
     @Given("object is created via API")
-    public void create_user() throws IOException {
+    public void create_user() {
         HashMap<String, String> headers= new HashMap<>();
         // Read CREATE payload
         JsonNode createPayload = root.get("create");
@@ -77,9 +77,11 @@ public class ApiSteps {
     @Then("object is created")
     public void object_is_created() {
         log.info("object is created" +context.response.jsonPath().getString("id"));
-        Assert.assertEquals(context.response.jsonPath().getString("name"), "Apple MacBook Pro 146" );
+        // Read CREATE payload
+        JsonNode createPayload = root.get("create");
+        Assert.assertEquals(context.response.jsonPath().getString("name"), createPayload.get("name").asText() );
         Assert.assertNotNull(context.response.jsonPath().getString("createdAt"));
-        Assert.assertEquals(context.response.jsonPath().getString("data.year"), "2019" );
+        Assert.assertEquals(context.response.jsonPath().getString("data.year"), createPayload.get("data").get("year").asText() );
     }
     @Given("object is updated via API")
     public void update_object() {
@@ -92,11 +94,13 @@ public class ApiSteps {
     }
     @Then("object details are updated")
     public void object_details_are_updated() {
+        // Read UPDATE payload
+        JsonNode updatePayload = root.get("update");
         log.info("object is updated" +context.response.jsonPath().getString("id"));
-        Assert.assertEquals(context.response.jsonPath().getString("name"), "Apple MacBook Pro 16" );
+        Assert.assertEquals(context.response.jsonPath().getString("name"), updatePayload.get("name").asText() );
         Assert.assertNotNull(context.response.jsonPath().getString("updatedAt"));
-        Assert.assertEquals(context.response.jsonPath().getString("data.year"), "2020" );
-        Assert.assertEquals(context.response.jsonPath().getString("data.color"), "silver" );
+        Assert.assertEquals(context.response.jsonPath().getString("data.year"), updatePayload.get("data").get("year").asText() );
+        Assert.assertEquals(context.response.jsonPath().getString("data.color"), updatePayload.get("data").get("color").asText() );
     }
     @Given("object is partially updated via API")
     public void partially_update_object() {
@@ -109,8 +113,10 @@ public class ApiSteps {
     }
     @Then("object details are partially updated")
     public void object_details_are_partially_updated() {
+        // Read Patch UPDATE payload
+        JsonNode patchUpdatePayload = root.get("patchUpdate");
         log.info("object is updated" +context.response.jsonPath().getString("id"));
-        Assert.assertEquals(context.response.jsonPath().getString("name"), "Apple MacBook Pro 186" );
+        Assert.assertEquals(context.response.jsonPath().getString("name"), patchUpdatePayload.get("name").asText() );
         Assert.assertNotNull(context.response.jsonPath().getString("updatedAt"));
     }
     @When("object is deleted via API")
