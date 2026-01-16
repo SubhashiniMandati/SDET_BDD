@@ -1,6 +1,8 @@
 package stepdefinitions;
 
 import api.ApiResponse;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import config.ConfigReader;
 import context.TestContext;
 import io.cucumber.java.en.*;
@@ -8,6 +10,10 @@ import log.LoggerUtil;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.HashMap;
 
 public class ApiSteps {
@@ -16,8 +22,11 @@ public class ApiSteps {
     private TestContext context;
     String id;
 
-    public ApiSteps(TestContext context) {
+    ObjectMapper mapper = new ObjectMapper();
+    JsonNode root;
+    public ApiSteps(TestContext context) throws IOException {
         this.context = context;
+        root = mapper.readTree(new File("src/test/resources/payloads/qc/objectPayloads.json"));
     }
 
     @Given("user get object via API")
@@ -57,20 +66,11 @@ public class ApiSteps {
     }
 
     @Given("object is created via API")
-    public void create_user() {
+    public void create_user() throws IOException {
         HashMap<String, String> headers= new HashMap<>();
-        String body = """
-{
-  "name": "Apple MacBook Pro 146",
-  "data": {
-    "year": 2019,
-    "price": 1849.99,
-    "CPU model": "Intel Core i9",
-    "Hard disk size": "1 TB"
-  }
-}
-""";
-        context.response= ApiResponse.postApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects"),headers, body,"");
+        // Read CREATE payload
+        JsonNode createPayload = root.get("create");
+        context.response= ApiResponse.postApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects"),headers, createPayload.toString(),"");
         log.info("object is created via API");
     }
 
@@ -85,19 +85,9 @@ public class ApiSteps {
     public void update_object() {
         String id = context.response.jsonPath().getString("id");
         HashMap<String, String> headers= new HashMap<>();
-        String body = """
-{
-   "name": "Apple MacBook Pro 16",
-   "data": {
-      "year": 2019,
-      "price": 2049.99,
-      "CPU model": "Intel Core i9",
-      "Hard disk size": "1 TB",
-      "color": "silver"
-   }
-}
-""";
-        context.response= ApiResponse.putApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects")+"/"+id,headers, body,"");
+        // Read UPDATE payload
+        JsonNode updatePayload = root.get("update");
+        context.response= ApiResponse.putApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects")+"/"+id,headers, updatePayload.toString(),"");
         log.info("object is updated via API");
     }
     @Then("object details are updated")
@@ -105,19 +95,16 @@ public class ApiSteps {
         log.info("object is updated" +context.response.jsonPath().getString("id"));
         Assert.assertEquals(context.response.jsonPath().getString("name"), "Apple MacBook Pro 16" );
         Assert.assertNotNull(context.response.jsonPath().getString("updatedAt"));
-        Assert.assertEquals(context.response.jsonPath().getString("data.year"), "2019" );
+        Assert.assertEquals(context.response.jsonPath().getString("data.year"), "2020" );
         Assert.assertEquals(context.response.jsonPath().getString("data.color"), "silver" );
     }
     @Given("object is partially updated via API")
     public void partially_update_object() {
         String id = context.response.jsonPath().getString("id");
         HashMap<String, String> headers= new HashMap<>();
-        String body = """
-{
-   "name": "Apple MacBook Pro 186"
-}
-""";
-        context.response= ApiResponse.patchApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects")+"/"+id,headers, body,"");
+        // Read Patch UPDATE payload
+        JsonNode patchUpdatePayload = root.get("patchUpdate");
+        context.response= ApiResponse.patchApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects")+"/"+id,headers, patchUpdatePayload.toString() ,"");
         log.info("object is partially updated via API");
     }
     @Then("object details are partially updated")

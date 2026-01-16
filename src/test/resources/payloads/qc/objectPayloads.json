@@ -1,0 +1,24 @@
+{
+  "create": {
+    "name": "Apple MacBook Pro 146",
+    "data": {
+      "year": 2019,
+      "price": 1849.99,
+      "CPU model": "Intel Core i9",
+      "Hard disk size": "1 TB"
+    }
+  },
+  "update": {
+    "name": "Apple MacBook Pro 16",
+    "data": {
+      "year": 2020,
+      "price": 1999.99,
+      "CPU model": "Intel Core i9",
+      "Hard disk size": "1 TB",
+      "color": "silver"
+    }
+  },
+  "patchUpdate": {
+    "name": "Apple MacBook Pro 186"
+  }
+}

@@ -30,7 +30,7 @@ Feature: Order E2E Flow
     Then object is created
     When object is partially updated via API
     Then object details are partially updated
-    
+
   @api
   Scenario: Delete object
     Given object is created via API
