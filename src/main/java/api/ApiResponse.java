@@ -20,4 +20,22 @@ public static Response getApiResponse(String baseUrl, String basePath, HashMap<S
                 .relaxedHTTPSValidation();
         return CommonResponseSpec.commonResponsePost(baseUrl,basePath, headers, requestSpecification);
     }
+    public static Response putApiResponse(String baseUrl, String basePath, HashMap<String, String> headers,String body, String ResponseSchemaFileName){
+        RequestSpecification requestSpecification = given()
+                .contentType(ContentType.JSON)
+                .body(body)
+                .relaxedHTTPSValidation();
+        return CommonResponseSpec.commonResponsePut(baseUrl,basePath, headers, requestSpecification);
+    }
+    public static Response patchApiResponse(String baseUrl, String basePath, HashMap<String, String> headers,String body, String ResponseSchemaFileName){
+        RequestSpecification requestSpecification = given()
+                .contentType(ContentType.JSON)
+                .body(body)
+                .relaxedHTTPSValidation();
+        return CommonResponseSpec.commonResponsePatch(baseUrl,basePath, headers, requestSpecification);
+    }
+    public static Response deleteApiResponse(String baseUrl, String basePath, HashMap<String, String> headers, String ResponseSchemaFileName){
+        RequestSpecification requestSpecification = given();
+        return CommonResponseSpec.commonResponseDelete(baseUrl,basePath, headers, requestSpecification);
+    }
 }

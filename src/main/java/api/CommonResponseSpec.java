@@ -35,4 +35,43 @@ public static Response commonResponseGet(String baseUrl, String basePath, HashMa
                 .extract().response();
         return response;
     }
+    public static Response commonResponsePut(String baseUrl, String basePath, HashMap<String ,String> headers, RequestSpecification requestSpecification){
+        Response response=requestSpecification.relaxedHTTPSValidation()
+                .when()
+                .urlEncodingEnabled(false)
+                .filters(getLoggingFilter())
+                .baseUri(baseUrl)
+                .basePath(basePath)
+                .headers(headers)
+                .put().then()
+                .assertThat()
+                .extract().response();
+        return response;
+    }
+    public static Response commonResponsePatch(String baseUrl, String basePath, HashMap<String ,String> headers, RequestSpecification requestSpecification){
+        Response response=requestSpecification.relaxedHTTPSValidation()
+                .when()
+                .urlEncodingEnabled(false)
+                .filters(getLoggingFilter())
+                .baseUri(baseUrl)
+                .basePath(basePath)
+                .headers(headers)
+                .patch().then()
+                .assertThat()
+                .extract().response();
+        return response;
+    }
+    public static Response commonResponseDelete(String baseUrl, String basePath, HashMap<String ,String> headers, RequestSpecification requestSpecification){
+        Response response=requestSpecification.relaxedHTTPSValidation()
+                .when()
+                .urlEncodingEnabled(false)
+                .filters(getLoggingFilter())
+                .baseUri(baseUrl)
+                .basePath(basePath)
+                .headers(headers)
+                .delete().then()
+                .assertThat()
+                .extract().response();
+        return response;
+    }
 }

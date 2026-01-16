@@ -4,7 +4,6 @@ import api.ApiResponse;
 import config.ConfigReader;
 import context.TestContext;
 import io.cucumber.java.en.*;
-import io.restassured.response.Response;
 import log.LoggerUtil;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -15,6 +14,7 @@ public class ApiSteps {
     private static final Logger log =
             LoggerUtil.getLogger(ApiSteps.class);
     private TestContext context;
+    String id;
 
     public ApiSteps(TestContext context) {
         this.context = context;
@@ -78,7 +78,66 @@ public class ApiSteps {
     public void object_is_created() {
         log.info("object is created" +context.response.jsonPath().getString("id"));
         Assert.assertEquals(context.response.jsonPath().getString("name"), "Apple MacBook Pro 146" );
+        Assert.assertNotNull(context.response.jsonPath().getString("createdAt"));
         Assert.assertEquals(context.response.jsonPath().getString("data.year"), "2019" );
+    }
+    @Given("object is updated via API")
+    public void update_object() {
+        String id = context.response.jsonPath().getString("id");
+        HashMap<String, String> headers= new HashMap<>();
+        String body = """
+{
+   "name": "Apple MacBook Pro 16",
+   "data": {
+      "year": 2019,
+      "price": 2049.99,
+      "CPU model": "Intel Core i9",
+      "Hard disk size": "1 TB",
+      "color": "silver"
+   }
+}
+""";
+        context.response= ApiResponse.putApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects")+"/"+id,headers, body,"");
+        log.info("object is updated via API");
+    }
+    @Then("object details are updated")
+    public void object_details_are_updated() {
+        log.info("object is updated" +context.response.jsonPath().getString("id"));
+        Assert.assertEquals(context.response.jsonPath().getString("name"), "Apple MacBook Pro 16" );
+        Assert.assertNotNull(context.response.jsonPath().getString("updatedAt"));
+        Assert.assertEquals(context.response.jsonPath().getString("data.year"), "2019" );
+        Assert.assertEquals(context.response.jsonPath().getString("data.color"), "silver" );
+    }
+    @Given("object is partially updated via API")
+    public void partially_update_object() {
+        String id = context.response.jsonPath().getString("id");
+        HashMap<String, String> headers= new HashMap<>();
+        String body = """
+{
+   "name": "Apple MacBook Pro 186"
+}
+""";
+        context.response= ApiResponse.patchApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects")+"/"+id,headers, body,"");
+        log.info("object is partially updated via API");
+    }
+    @Then("object details are partially updated")
+    public void object_details_are_partially_updated() {
+        log.info("object is updated" +context.response.jsonPath().getString("id"));
+        Assert.assertEquals(context.response.jsonPath().getString("name"), "Apple MacBook Pro 186" );
+        Assert.assertNotNull(context.response.jsonPath().getString("updatedAt"));
+    }
+    @When("object is deleted via API")
+    public void object_is_deleted_via_api(){
+        id = context.response.jsonPath().getString("id");
+        HashMap<String, String> headers= new HashMap<>();
+        context.response= ApiResponse.deleteApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects")+"/"+id,headers,"");
+        log.info("object is deleted via API");
+    }
+    @Then("verify object is deleted")
+    public void object_is_deleted() {
+        String message = context.response.jsonPath().getString("message");
+        log.info("object is deleted" +context.response.jsonPath().getString("message"));
+        Assert.assertEquals(message,  "Object with id = "+id+" has been deleted." );
     }
 }
 
