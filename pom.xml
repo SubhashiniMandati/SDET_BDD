@@ -101,12 +101,27 @@
                <version>3.2.5</version>
                <configuration>
                    <includes>
-                       <include>**/Runner.java</include>
+                       <!--suppress UnresolvedMavenProperty -->
+                       <include>${runner.class}.java</include>
                    </includes>
                </configuration>
            </plugin>
        </plugins>
    </build>
+    <profiles>
+        <profile>
+            <id>api</id>
+            <properties>
+                <runner.class>runner.APITestRunner</runner.class>
+            </properties>
+        </profile>
+        <profile>
+            <id>web</id>
+            <properties>
+                <runner.class>runner.WebTestRunner</runner.class>
+            </properties>
+        </profile>
+    </profiles>
 
 
 
