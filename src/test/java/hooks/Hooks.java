@@ -3,14 +3,9 @@ package hooks;
 import config.ConfigReader;
 import context.TestContext;
 import driver.DriverFactory;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
+import io.cucumber.java.*;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.*;
 import log.LoggerUtil;
 
 public class Hooks {

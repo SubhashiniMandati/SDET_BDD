@@ -2,8 +2,7 @@ package config;
 
 import context.TestContext;
 
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.util.Properties;
 
 public class ConfigReader {

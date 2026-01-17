@@ -7,9 +7,7 @@ import org.testng.Assert;
 import pages.LoginPage;
 import org.apache.logging.log4j.Logger;
 import log.LoggerUtil;
-
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 public class LoginSteps{

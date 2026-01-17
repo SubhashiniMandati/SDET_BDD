@@ -1,12 +1,10 @@
 package listeners;
 
 import com.aventstack.extentreports.*;
-import config.ConfigReader;
 import context.TestContext;
 import io.cucumber.plugin.ConcurrentEventListener;
 import io.cucumber.plugin.event.*;
 import org.openqa.selenium.*;
-import driver.DriverFactory;
 import reporting.ExtentManager;
 import utils.web.ScreenhotUtil;
 

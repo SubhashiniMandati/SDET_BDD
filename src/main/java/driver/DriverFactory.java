@@ -3,12 +3,9 @@ package driver;
 import config.ConfigReader;
 import log.LoggerUtil;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.MutableCapabilities;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.firefox.*;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.URL;

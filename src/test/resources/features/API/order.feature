@@ -1,4 +1,4 @@
-Feature: Order E2E Flow
+Feature: API CRUD Operations
 
   @api
   Scenario: Get single object

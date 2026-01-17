@@ -1,4 +1,4 @@
-Feature: Login Feature
+Feature: UI BDD examples Login Feature
 
   @Smoke
   Scenario: Basic BDD scenario example

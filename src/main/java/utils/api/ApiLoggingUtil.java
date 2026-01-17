@@ -1,9 +1,7 @@
 package utils.api;
 
 import io.restassured.filter.Filter;
-import io.restassured.filter.log.ErrorLoggingFilter;
-import io.restassured.filter.log.RequestLoggingFilter;
-import io.restassured.filter.log.ResponseLoggingFilter;
+import io.restassured.filter.log.*;
 
 import java.util.ArrayList;
 import java.util.List;
