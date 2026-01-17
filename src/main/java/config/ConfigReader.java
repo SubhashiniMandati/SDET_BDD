@@ -1,5 +1,7 @@
 package config;
 
+import context.TestContext;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -7,8 +9,7 @@ import java.util.Properties;
 public class ConfigReader {
 
     private static Properties properties;
-    private static final String ENV = System.getProperty("env", "qc");
-
+    private static TestContext context;
 
     static {
         properties = new Properties();
@@ -18,7 +19,7 @@ public class ConfigReader {
                         .getResourceAsStream("config.properties");
                 InputStream envStream = Thread.currentThread()
                         .getContextClassLoader()
-                        .getResourceAsStream(ENV+".properties")
+                        .getResourceAsStream(context.ENV+".properties")
         ) {
             if (configStream == null || envStream == null) {
                 throw new RuntimeException("One or more property files not found in classpath");
