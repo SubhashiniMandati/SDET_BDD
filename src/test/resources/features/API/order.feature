@@ -29,7 +29,7 @@ Feature: API CRUD Operations
     When object is partially updated via API
     Then object details are partially updated
 
-  @api
+  @api01
   Scenario: Delete object
     Given object is created via API
     Then object is created

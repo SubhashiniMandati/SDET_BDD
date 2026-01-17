@@ -7,6 +7,8 @@ import io.cucumber.java.*;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
 import log.LoggerUtil;
+import org.testng.asserts.SoftAssert;
+import utils.SoftAssertManager;
 
 public class Hooks {
 
@@ -25,9 +27,23 @@ public class Hooks {
 
     }
 
-    @After
+    @After(order = 1)
     public void afterScenario(Scenario scenario) {
+        SoftAssert softAssert = SoftAssertManager.getSoftAssert();
 
+        try {
+            softAssert.assertAll();   // ← triggers AssertionError
+        } catch (AssertionError e) {
+
+            // 1️⃣ Mark scenario as FAILED
+            scenario.log("Soft assertion failures:");
+            scenario.log(e.getMessage());
+
+            // 2️⃣ Fail scenario explicitly
+            throw e;
+        } finally {
+            SoftAssertManager.clear();
+        }
         if (TestContext.platform.equalsIgnoreCase("web")){
             log.info("===== Scenario Finished: {} | Status: {} =====",
                     scenario.getName(),

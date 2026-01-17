@@ -10,6 +10,7 @@ import io.cucumber.testng.CucumberOptions;
                 "json:target/cucumber-report/cucumber.json",
                 "listeners.CucumberExtentListener",
                 "rerun:target/rerun/api-rerun.txt"
+
         },
         tags = "@api"
 )
