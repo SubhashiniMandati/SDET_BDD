@@ -1,10 +1,8 @@
 package stepdefinitions;
 
 import config.ConfigReader;
-import context.TestContext;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
-import io.opentelemetry.sdk.autoconfigure.spi.ConfigProperties;
 import org.testng.Assert;
 import pages.LoginPage;
 import org.apache.logging.log4j.Logger;
@@ -52,6 +50,21 @@ public class LoginSteps{
         Assert.assertEquals("test message", "test message");
     }
 
+    @Given("user enters registration details")
+    public void user_enters_registration_details(DataTable dataTable) {
+        List<List<String>> data = dataTable.asLists(String.class);
+        List<String> row = data.get(0); // first row
+        loginPage.login(row.get(0),row.get(1));
+    }
 
+    @Given("user enters registration details in tab")
+    public void user_enters_registration_details_in_tab(DataTable dataTable) {
+
+        List<Map<String, String>> users = dataTable.asMaps();
+
+        for (Map<String, String> user : users) {
+            loginPage.login(user.get("firstName"),user.get("lastName"));
+        }
+    }
 
 }

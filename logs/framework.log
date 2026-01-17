@@ -445,3 +445,861 @@
 2026-01-17 13:49:42 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
 2026-01-17 13:49:42 INFO  driver.DriverFactory - Attempting to quit WebDriver
 2026-01-17 13:49:42 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 13:52:51 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 13:52:51 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
+2026-01-17 13:52:51 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 13:52:51 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 13:52:54 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 13:52:54 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 13:52:54 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
+2026-01-17 13:52:54 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 13:52:55 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:50:23 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:50:23 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-17 19:50:23 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:50:23 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:50:27 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: PASSED =====
+2026-01-17 19:50:27 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:50:28 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:50:28 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:50:28 INFO  hooks.Hooks - ===== Scenario Started: Exa02 =====
+2026-01-17 19:50:28 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:50:28 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:50:29 INFO  hooks.Hooks - ===== Scenario Finished: Exa02 | Status: PASSED =====
+2026-01-17 19:50:29 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:50:30 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:50:30 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:50:30 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 19:50:30 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:50:30 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:50:32 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:50:32 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 19:50:32 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:50:33 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:50:33 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:50:33 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 19:50:33 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:50:33 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:50:35 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:50:36 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 19:50:36 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:50:36 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:50:36 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:50:36 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 19:50:36 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:50:36 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:50:38 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:50:39 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 19:50:39 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:50:39 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:50:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:50:39 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 19:50:39 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:50:39 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:50:42 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:51:03 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: FAILED =====
+2026-01-17 19:51:03 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:51:04 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:51:04 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:51:04 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
+2026-01-17 19:51:04 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:51:04 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:51:07 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:51:07 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 19:51:07 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 19:51:07 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: PASSED =====
+2026-01-17 19:51:07 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:51:07 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:51:07 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:51:07 INFO  hooks.Hooks - ===== Scenario Started: Invalid login =====
+2026-01-17 19:51:07 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:51:07 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:51:10 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:51:10 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 19:51:10 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 19:51:10 INFO  hooks.Hooks - ===== Scenario Finished: Invalid login | Status: PASSED =====
+2026-01-17 19:51:10 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:51:10 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:51:10 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:51:10 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
+2026-01-17 19:51:10 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:51:10 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:51:13 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:51:13 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 19:51:13 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
+2026-01-17 19:51:13 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:51:14 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:52:01 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:52:01 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-17 19:52:01 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:52:01 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:52:04 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:52:04 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: PASSED =====
+2026-01-17 19:52:04 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:52:04 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:53:29 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:53:29 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-17 19:53:29 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:53:29 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:53:32 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:53:32 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: PASSED =====
+2026-01-17 19:53:32 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:53:33 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:53:33 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:53:33 INFO  hooks.Hooks - ===== Scenario Started: Exa02 =====
+2026-01-17 19:53:33 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:53:33 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:53:35 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:53:35 INFO  hooks.Hooks - ===== Scenario Finished: Exa02 | Status: PASSED =====
+2026-01-17 19:53:35 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:53:36 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:57:10 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:57:10 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-17 19:57:10 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:57:10 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:57:13 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:57:13 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: PASSED =====
+2026-01-17 19:57:13 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:57:13 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:57:14 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:57:14 INFO  hooks.Hooks - ===== Scenario Started: Exa02 =====
+2026-01-17 19:57:14 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:57:14 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:57:16 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:57:16 INFO  hooks.Hooks - ===== Scenario Finished: Exa02 | Status: PASSED =====
+2026-01-17 19:57:17 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:57:17 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:58:00 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:58:00 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-17 19:58:00 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:58:00 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:58:03 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:58:03 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: PASSED =====
+2026-01-17 19:58:03 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:58:04 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 19:58:04 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 19:58:04 INFO  hooks.Hooks - ===== Scenario Started: Exa02 =====
+2026-01-17 19:58:04 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 19:58:04 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 19:58:06 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 19:58:07 INFO  hooks.Hooks - ===== Scenario Finished: Exa02 | Status: PASSED =====
+2026-01-17 19:58:07 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 19:58:07 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:00:05 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:00:05 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example without headers =====
+2026-01-17 20:00:05 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:00:05 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:00:08 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:00:08 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example without headers | Status: PASSED =====
+2026-01-17 20:00:08 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:00:09 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:00:09 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:00:09 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example with headers =====
+2026-01-17 20:00:09 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:00:09 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:00:11 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:00:11 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example with headers | Status: PASSED =====
+2026-01-17 20:00:11 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:00:12 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:02:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:02:39 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
+2026-01-17 20:02:39 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:02:39 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:02:42 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:02:43 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:02:43 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:02:43 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: PASSED =====
+2026-01-17 20:02:43 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:02:43 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:02:43 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:02:43 INFO  hooks.Hooks - ===== Scenario Started: Invalid login =====
+2026-01-17 20:02:43 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:02:43 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:02:46 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:02:46 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:02:46 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:02:46 INFO  hooks.Hooks - ===== Scenario Finished: Invalid login | Status: PASSED =====
+2026-01-17 20:02:46 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:02:47 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:04:12 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:04:12 INFO  hooks.Hooks - ===== Scenario Started: Basic BDD scenario example =====
+2026-01-17 20:04:12 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:04:12 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:04:15 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:04:16 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:04:16 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:04:16 INFO  hooks.Hooks - ===== Scenario Finished: Basic BDD scenario example | Status: PASSED =====
+2026-01-17 20:04:16 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:04:16 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:04:37 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:04:37 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
+2026-01-17 20:04:37 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:04:37 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:04:40 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:04:41 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:04:41 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
+2026-01-17 20:04:41 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:04:41 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:06:05 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:06:05 INFO  hooks.Hooks - ===== Scenario Started: Verify login failure flow =====
+2026-01-17 20:06:05 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:06:05 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:06:08 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:06:08 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:06:08 INFO  hooks.Hooks - ===== Scenario Finished: Verify login failure flow | Status: FAILED =====
+2026-01-17 20:06:08 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:06:09 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:07:23 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:07:23 INFO  hooks.Hooks - ===== Scenario Started: Basic BDD scenario example =====
+2026-01-17 20:07:23 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:07:23 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:07:26 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:07:26 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:07:26 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:07:26 INFO  hooks.Hooks - ===== Scenario Finished: Basic BDD scenario example | Status: PASSED =====
+2026-01-17 20:07:26 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:07:27 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:07:27 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:07:27 INFO  hooks.Hooks - ===== Scenario Started: Verify login failure flow =====
+2026-01-17 20:07:27 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:07:27 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:07:30 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:07:30 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:07:30 INFO  hooks.Hooks - ===== Scenario Finished: Verify login failure flow | Status: FAILED =====
+2026-01-17 20:07:30 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:07:30 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:07:30 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:07:30 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example without headers =====
+2026-01-17 20:07:30 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:07:30 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:07:33 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:07:33 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example without headers | Status: PASSED =====
+2026-01-17 20:07:33 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:07:33 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:07:33 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:07:33 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example with headers =====
+2026-01-17 20:07:33 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:07:33 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:07:36 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:07:36 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example with headers | Status: PASSED =====
+2026-01-17 20:07:36 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:07:36 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:08:06 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:08:06 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:08:06 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:08:06 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:08:09 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:08:10 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:08:10 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:08:10 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:08:10 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:08:10 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:08:10 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:08:10 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:08:13 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:08:13 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:08:13 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:08:13 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:08:13 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:08:13 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:08:13 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:08:13 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:08:16 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:08:37 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: FAILED =====
+2026-01-17 20:08:37 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:08:37 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:08:37 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:08:37 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:08:37 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:08:37 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:08:40 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:08:40 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:08:40 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:08:40 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:09:19 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:09:19 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:09:19 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:09:19 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:09:22 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:09:22 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:09:22 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:09:22 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:09:23 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:09:23 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:09:23 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:09:23 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:09:25 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:09:25 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:09:25 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:09:26 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:09:26 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:09:26 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:09:26 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:09:26 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:09:28 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:09:28 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:09:28 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:09:29 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:09:29 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:09:29 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:09:29 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:09:29 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:09:31 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:09:31 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:09:31 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:09:31 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:10:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:10:39 INFO  hooks.Hooks - ===== Scenario Started: Basic BDD scenario example =====
+2026-01-17 20:10:39 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:10:39 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:10:42 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:10:43 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:10:43 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:10:43 INFO  hooks.Hooks - ===== Scenario Finished: Basic BDD scenario example | Status: PASSED =====
+2026-01-17 20:10:43 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:10:43 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:10:43 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:10:43 INFO  hooks.Hooks - ===== Scenario Started: Verify login failure flow =====
+2026-01-17 20:10:43 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:10:43 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:10:46 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:10:46 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:10:46 INFO  hooks.Hooks - ===== Scenario Finished: Verify login failure flow | Status: FAILED =====
+2026-01-17 20:10:46 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:10:47 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:10:47 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:10:47 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example without headers =====
+2026-01-17 20:10:47 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:10:47 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:10:49 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:10:49 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example without headers | Status: PASSED =====
+2026-01-17 20:10:49 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:10:49 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:10:49 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:10:49 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example with headers =====
+2026-01-17 20:10:49 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:10:49 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:10:52 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:10:52 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example with headers | Status: PASSED =====
+2026-01-17 20:10:52 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:10:53 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:10:53 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:10:53 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:10:53 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:10:53 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:10:55 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:10:56 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:10:56 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:10:56 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:10:56 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:10:56 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:10:56 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:10:56 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:10:58 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:10:59 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:10:59 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:10:59 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:10:59 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:10:59 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:10:59 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:10:59 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:11:01 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:11:01 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:11:01 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:11:02 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:11:02 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:11:02 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:11:02 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:11:02 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:11:04 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:11:04 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:11:04 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:11:05 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:12:49 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:12:49 INFO  hooks.Hooks - ===== Scenario Started: Basic BDD scenario example =====
+2026-01-17 20:12:49 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:12:49 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:12:52 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:12:53 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:12:53 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:12:53 INFO  hooks.Hooks - ===== Scenario Finished: Basic BDD scenario example | Status: PASSED =====
+2026-01-17 20:12:53 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:12:53 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:12:53 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:12:53 INFO  hooks.Hooks - ===== Scenario Started: Verify login failure flow =====
+2026-01-17 20:12:53 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:12:53 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:12:56 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:12:56 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:12:56 INFO  hooks.Hooks - ===== Scenario Finished: Verify login failure flow | Status: FAILED =====
+2026-01-17 20:12:56 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:12:57 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:12:57 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:12:57 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example without headers =====
+2026-01-17 20:12:57 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:12:57 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:12:59 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:12:59 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example without headers | Status: PASSED =====
+2026-01-17 20:12:59 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:13:00 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:13:00 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:13:00 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example with headers =====
+2026-01-17 20:13:00 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:13:00 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:13:02 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:13:03 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example with headers | Status: PASSED =====
+2026-01-17 20:13:03 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:13:03 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:13:03 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:13:03 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:13:03 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:13:03 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:13:05 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:13:26 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: FAILED =====
+2026-01-17 20:13:26 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:13:27 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:13:27 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:13:27 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:13:27 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:13:27 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:13:29 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:13:30 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:13:30 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:13:30 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:13:30 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:13:30 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:13:30 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:13:30 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:13:32 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:13:32 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:13:32 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:13:33 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:13:33 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:13:33 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:13:33 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:13:33 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:13:35 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:13:35 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:13:35 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:13:35 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:14:11 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:14:11 INFO  hooks.Hooks - ===== Scenario Started: Basic BDD scenario example =====
+2026-01-17 20:14:11 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:14:11 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:14:14 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:14:15 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:14:15 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:14:15 INFO  hooks.Hooks - ===== Scenario Finished: Basic BDD scenario example | Status: PASSED =====
+2026-01-17 20:14:15 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:14:15 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:14:15 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:14:15 INFO  hooks.Hooks - ===== Scenario Started: Verify login failure flow =====
+2026-01-17 20:14:15 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:14:15 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:14:17 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:14:18 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:14:18 INFO  hooks.Hooks - ===== Scenario Finished: Verify login failure flow | Status: FAILED =====
+2026-01-17 20:14:18 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:14:18 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:14:18 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:14:18 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example without headers =====
+2026-01-17 20:14:18 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:14:18 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:14:20 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:14:21 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example without headers | Status: PASSED =====
+2026-01-17 20:14:21 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:14:21 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:14:21 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:14:21 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example with headers =====
+2026-01-17 20:14:21 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:14:21 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:14:23 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:14:23 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example with headers | Status: PASSED =====
+2026-01-17 20:14:23 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:14:24 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:14:24 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:14:24 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:14:24 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:14:24 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:14:26 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:14:26 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:14:26 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:14:26 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:14:26 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:14:26 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:14:26 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:14:26 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:14:29 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:14:29 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:14:29 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:14:29 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:14:29 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:14:29 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:14:29 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:14:29 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:14:32 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:14:32 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:14:32 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:14:32 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:14:32 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:14:32 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:14:32 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:14:32 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:14:34 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:14:35 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:14:35 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:14:35 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:15:14 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:15:14 INFO  hooks.Hooks - ===== Scenario Started: Basic BDD scenario example =====
+2026-01-17 20:15:14 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:15:14 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:15:17 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:15:18 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:15:18 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:15:18 INFO  hooks.Hooks - ===== Scenario Finished: Basic BDD scenario example | Status: PASSED =====
+2026-01-17 20:15:18 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:15:18 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:15:18 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:15:18 INFO  hooks.Hooks - ===== Scenario Started: Verify login failure flow =====
+2026-01-17 20:15:18 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:15:18 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:15:21 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:15:21 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:15:22 INFO  hooks.Hooks - ===== Scenario Finished: Verify login failure flow | Status: FAILED =====
+2026-01-17 20:15:22 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:15:22 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:15:22 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:15:22 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example without headers =====
+2026-01-17 20:15:22 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:15:22 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:15:25 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:15:25 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example without headers | Status: PASSED =====
+2026-01-17 20:15:25 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:15:25 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:15:25 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:15:25 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example with headers =====
+2026-01-17 20:15:25 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:15:25 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:15:28 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:15:28 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example with headers | Status: PASSED =====
+2026-01-17 20:15:28 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:15:28 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:15:28 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:15:28 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:15:28 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:15:28 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:15:31 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:15:31 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:15:31 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:15:31 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:15:31 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:15:31 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:15:31 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:15:31 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:15:34 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:15:34 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:15:34 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:15:34 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:15:34 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:15:34 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:15:34 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:15:34 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:15:37 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:15:37 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:15:37 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:15:37 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:15:37 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:15:37 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:15:37 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:15:37 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:15:40 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:15:40 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:15:40 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:15:41 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:22:05 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:22:05 INFO  hooks.Hooks - ===== Scenario Started: Basic BDD scenario example =====
+2026-01-17 20:22:05 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:22:05 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:22:09 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:22:09 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:22:09 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:22:09 INFO  hooks.Hooks - ===== Scenario Finished: Basic BDD scenario example | Status: PASSED =====
+2026-01-17 20:22:09 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:22:09 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:22:09 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:22:09 INFO  hooks.Hooks - ===== Scenario Started: Verify login failure flow =====
+2026-01-17 20:22:09 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:22:09 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:22:12 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:22:12 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:22:12 INFO  hooks.Hooks - ===== Scenario Finished: Verify login failure flow | Status: FAILED =====
+2026-01-17 20:22:13 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:22:13 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:22:13 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:22:13 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example without headers =====
+2026-01-17 20:22:13 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:22:13 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:22:16 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:22:37 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example without headers | Status: FAILED =====
+2026-01-17 20:22:37 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:22:37 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:22:37 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:22:37 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example with headers =====
+2026-01-17 20:22:37 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:22:37 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:22:40 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:22:40 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example with headers | Status: PASSED =====
+2026-01-17 20:22:40 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:22:40 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:22:40 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:22:40 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:22:40 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:22:40 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:22:43 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:22:43 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:22:43 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:22:43 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:22:43 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:22:43 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:22:43 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:22:43 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:22:46 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:22:46 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:22:46 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:22:46 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:22:46 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:22:46 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:22:46 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:22:46 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:22:48 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:22:48 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:22:48 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:22:49 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:22:49 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:22:49 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:22:49 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:22:49 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:22:51 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:22:51 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:22:51 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:22:51 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:23:23 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:23:23 INFO  hooks.Hooks - ===== Scenario Started: Basic BDD scenario example =====
+2026-01-17 20:23:23 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:23:23 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:23:26 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:23:26 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:23:26 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:23:26 INFO  hooks.Hooks - ===== Scenario Finished: Basic BDD scenario example | Status: PASSED =====
+2026-01-17 20:23:26 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:23:27 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:23:27 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:23:27 INFO  hooks.Hooks - ===== Scenario Started: Verify login failure flow =====
+2026-01-17 20:23:27 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:23:27 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:23:29 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:23:30 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:23:30 INFO  hooks.Hooks - ===== Scenario Finished: Verify login failure flow | Status: FAILED =====
+2026-01-17 20:23:30 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:23:30 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:23:30 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:23:30 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example without headers =====
+2026-01-17 20:23:30 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:23:30 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:23:33 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:23:33 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example without headers | Status: PASSED =====
+2026-01-17 20:23:33 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:23:33 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:23:33 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:23:33 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example with headers =====
+2026-01-17 20:23:33 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:23:33 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:23:35 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:23:36 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example with headers | Status: PASSED =====
+2026-01-17 20:23:36 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:23:36 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:23:36 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:23:36 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:23:36 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:23:36 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:23:38 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:23:38 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:23:38 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:23:39 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:23:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:23:39 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:23:39 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:23:39 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:23:41 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:23:41 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:23:41 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:23:41 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:23:41 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:23:41 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:23:41 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:23:41 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:23:44 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:23:44 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:23:44 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:23:44 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:23:44 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:23:44 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:23:44 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:23:44 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:23:47 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:23:47 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:23:47 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:23:47 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:25:16 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:25:16 INFO  hooks.Hooks - ===== Scenario Started: Basic BDD scenario example =====
+2026-01-17 20:25:16 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:25:16 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:25:19 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:25:19 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:25:19 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:25:19 INFO  hooks.Hooks - ===== Scenario Finished: Basic BDD scenario example | Status: PASSED =====
+2026-01-17 20:25:19 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:25:20 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:25:20 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:25:20 INFO  hooks.Hooks - ===== Scenario Started: Verify login failure flow =====
+2026-01-17 20:25:20 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:25:20 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:25:22 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:25:22 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:25:23 INFO  hooks.Hooks - ===== Scenario Finished: Verify login failure flow | Status: FAILED =====
+2026-01-17 20:25:23 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:25:23 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:25:23 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:25:23 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example without headers =====
+2026-01-17 20:25:23 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:25:23 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:25:25 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:25:25 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example without headers | Status: PASSED =====
+2026-01-17 20:25:25 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:25:26 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:25:26 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:25:26 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example with headers =====
+2026-01-17 20:25:26 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:25:26 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:25:28 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:25:49 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example with headers | Status: FAILED =====
+2026-01-17 20:25:50 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:25:50 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:25:50 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:25:50 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:25:50 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:25:50 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:25:53 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:25:53 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:25:53 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:25:53 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:25:53 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:25:53 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:25:53 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:25:53 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:25:56 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:25:56 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:25:56 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:25:56 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:25:56 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:25:56 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:25:56 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:25:56 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:25:59 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:25:59 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:25:59 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:25:59 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:25:59 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:25:59 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:25:59 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:25:59 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:26:02 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:26:02 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:26:02 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:26:02 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:26:40 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:26:40 INFO  hooks.Hooks - ===== Scenario Started: Basic BDD scenario example =====
+2026-01-17 20:26:40 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:26:40 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:26:43 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:26:43 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:26:43 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 20:26:43 INFO  hooks.Hooks - ===== Scenario Finished: Basic BDD scenario example | Status: PASSED =====
+2026-01-17 20:26:43 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:26:43 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:26:43 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:26:43 INFO  hooks.Hooks - ===== Scenario Started: Verify login failure flow =====
+2026-01-17 20:26:43 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:26:43 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:26:46 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:26:46 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 20:26:46 INFO  hooks.Hooks - ===== Scenario Finished: Verify login failure flow | Status: FAILED =====
+2026-01-17 20:26:46 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:26:46 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:26:46 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:26:46 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example without headers =====
+2026-01-17 20:26:46 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:26:46 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:26:49 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:26:50 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example without headers | Status: PASSED =====
+2026-01-17 20:26:50 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:26:50 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:26:50 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:26:50 INFO  hooks.Hooks - ===== Scenario Started: DataTable Example with headers =====
+2026-01-17 20:26:50 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:26:50 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:26:52 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:26:52 INFO  hooks.Hooks - ===== Scenario Finished: DataTable Example with headers | Status: PASSED =====
+2026-01-17 20:26:52 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:26:53 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:26:53 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:26:53 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:26:53 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:26:53 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:26:55 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:26:55 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:26:55 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:26:55 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:26:55 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:26:55 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 20:26:55 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:26:55 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:26:58 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:26:58 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 20:26:58 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:26:58 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:26:58 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:26:58 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:26:58 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:26:58 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:27:01 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:27:01 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:27:01 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:27:01 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:27:01 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:27:01 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 20:27:01 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:27:01 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:27:04 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 20:27:04 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 20:27:04 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:27:04 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:27:37 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:27:37 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
+2026-01-17 20:27:37 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:27:37 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:27:41 INFO  stepdefinitions.ApiSteps - user get object via API
+2026-01-17 20:27:42 INFO  hooks.Hooks - ===== Scenario Finished: Get single object | Status: PASSED =====
+2026-01-17 20:27:42 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:27:42 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 20:27:43 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 20:27:43 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
+2026-01-17 20:27:43 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 20:27:43 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 20:27:45 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-17 20:27:45 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bcc76502a6b4d
+2026-01-17 20:27:45 INFO  stepdefinitions.ApiSteps - object is deleted via API
+2026-01-17 20:27:45 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bcc76502a6b4d has been deleted.
+2026-01-17 20:27:46 INFO  hooks.Hooks - ===== Scenario Finished: Delete object | Status: FAILED =====
+2026-01-17 20:27:46 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 20:27:46 INFO  driver.DriverFactory - WebDriver quit successfully

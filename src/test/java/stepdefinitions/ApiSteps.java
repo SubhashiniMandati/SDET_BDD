@@ -3,18 +3,13 @@ package stepdefinitions;
 import api.ApiResponse;
 import api.PayloadReader;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import config.ConfigReader;
 import context.TestContext;
 import io.cucumber.java.en.*;
 import log.LoggerUtil;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
-
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.HashMap;
 
 public class ApiSteps {
