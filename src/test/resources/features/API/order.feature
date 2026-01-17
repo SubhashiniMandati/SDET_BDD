@@ -5,17 +5,17 @@ Feature: API CRUD Operations
     Given user get object via API
     Then validate specific object response
 
-  @api01
+  @api
   Scenario: Get list of objects
     Given user get list of object via API
     Then validate object response
 
-  @api01
+  @api
   Scenario: Add object
     Given object is created via API
     Then object is created
 
-  @api01
+  @api
   Scenario: Update object
     Given object is created via API
     Then object is created
@@ -29,7 +29,7 @@ Feature: API CRUD Operations
     When object is partially updated via API
     Then object details are partially updated
 
-  @api01
+  @api
   Scenario: Delete object
     Given object is created via API
     Then object is created

@@ -1,5 +1,6 @@
 package validations;
 
+import static context.TestContext.response;
 import static utils.SoftAssertManager.getSoftAssert;
 
 public class ApiResponseValidator {
@@ -14,5 +15,11 @@ public class ApiResponseValidator {
     }
     public static void validatePrice(String actualPrice, String expectedPrice) {
         getSoftAssert().assertEquals(actualPrice, expectedPrice, "Price mismatch");
+    }
+    public static void assertNotNull(String key) {
+        getSoftAssert().assertNotNull(key, key +"is not null");
+    }
+    public static void assertEquals(String actualValue, String expectedValue) {
+        getSoftAssert().assertEquals(actualValue, expectedValue,  "expected value" +expectedValue + "actualValue" +actualValue );
     }
 }
