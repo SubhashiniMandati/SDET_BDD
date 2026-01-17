@@ -9,6 +9,8 @@ import io.cucumber.java.en.*;
 import log.LoggerUtil;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.asserts.SoftAssert;
+import utils.SoftAssertManager;
 import validations.ApiResponseValidator;
 
 import java.io.IOException;
@@ -38,12 +40,14 @@ public class ApiSteps {
     public void validate_specific_object_response() {
         // Read GET payload
         JsonNode getPayload = root.get("get");
+        SoftAssert softAssert = getSoftAssert();
         ApiResponseValidator.validateId(response.jsonPath().getString("id"), "8");
         ApiResponseValidator.validateName(response.jsonPath().getString("name"), "abc");
         Object year = response.jsonPath().get("data.year");
         ApiResponseValidator.validateYear(String.valueOf(year), getPayload.get("data").get("price").asText());
         Object price = response.jsonPath().get("data.price");
         ApiResponseValidator.validateYear(String.valueOf(price), getPayload.get("data").get("year").asText());
+        SoftAssertManager.assertAll();
     }
 
     @Given("user get list of object via API")
@@ -57,7 +61,7 @@ public class ApiSteps {
     public void validate_object_response() {
         // Read GET payload
         JsonNode getPayload = root.get("get");
-        Assert.assertEquals(response.jsonPath().getString("[6].id"), "7" );
+        Assert.assertEquals(response.jsonPath().getString("[6].id"), "9" );
         Assert.assertEquals(response.jsonPath().getString("[6].name"), getPayload.get("name").asText());
         Object year = response.jsonPath().get("[6].data.year");
         Assert.assertEquals(String.valueOf(year), getPayload.get("data").get("year").asText() );
