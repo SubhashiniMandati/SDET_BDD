@@ -27,7 +27,7 @@ public class LoginSteps{
 
     @When("user enters valid credentials")
     public void enter_credentials() {
-        loginPage.login(ConfigReader.getProperty(TestContext.ENV+".username"),ConfigReader.getProperty(TestContext.ENV+".password"));
+        loginPage.login(ConfigReader.getProperty("username"),ConfigReader.getProperty("password"));
         log.info("Entering valid credentials");
     }
 
@@ -45,7 +45,7 @@ public class LoginSteps{
     }
     @When("user enters username {string} and password {string}")
     public void user_enters_credentials(String username, String password) {
-        loginPage.login(ConfigReader.getProperty(TestContext.ENV+".username"),ConfigReader.getProperty(TestContext.ENV+".password"));
+        loginPage.login(ConfigReader.getProperty("username"),ConfigReader.getProperty("password"));
     }
     @Then("user should see homepage with message {string}")
     public void verify_homepage(String message) {

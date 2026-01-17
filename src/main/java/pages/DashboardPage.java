@@ -9,7 +9,7 @@ public class DashboardPage {
     WebDriver driver = DriverFactory.getDriver();
 
     public void open() {
-        driver.get(ConfigReader.getProperty(TestContext.ENV+".base.url"));
+        driver.get(ConfigReader.getProperty("base.url"));
     }
     public boolean isOrderDisplayed(String orderId){
         boolean x=true;

@@ -1,712 +1,112 @@
-2026-01-16 11:17:30 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:17:30 INFO  hooks.Hooks - ===== Scenario Started: User creates order and verifies in UI =====
-2026-01-16 11:17:33 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:17:33 INFO  stepdefinitions.ApiSteps - user is displayed 7
-2026-01-16 11:19:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:19:39 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:22:51 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:22:51 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:23:10 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:23:10 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:23:13 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:26:43 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:26:43 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:26:45 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:27:18 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:27:18 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:27:19 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:28:38 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:28:38 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:28:40 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:31:25 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:31:25 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:31:27 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:32:15 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:32:15 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:32:16 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:32:45 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:32:45 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:32:47 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:34:26 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:34:26 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:34:28 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:35:05 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:35:05 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:35:07 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:35:38 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:35:38 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:35:39 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:37:15 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:37:15 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:37:17 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:38:09 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:38:09 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:38:10 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:39:43 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:39:43 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:39:45 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 11:40:47 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 11:40:47 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 11:40:49 INFO  stepdefinitions.ApiSteps - user is created via API
-2026-01-16 12:20:30 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:20:30 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 12:20:33 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 12:20:34 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:20:34 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 12:20:34 INFO  stepdefinitions.ApiSteps - user get lit of object via API
-2026-01-16 12:23:40 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:23:40 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 12:23:43 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 12:23:44 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:23:44 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 12:23:44 INFO  stepdefinitions.ApiSteps - user get lit of object via API
-2026-01-16 12:25:54 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:25:54 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 12:25:56 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 12:25:58 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:25:58 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 12:25:58 INFO  stepdefinitions.ApiSteps - user get lit of object via API
-2026-01-16 12:26:18 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:26:18 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 12:26:19 INFO  stepdefinitions.ApiSteps - user get lit of object via API
-2026-01-16 12:27:11 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:27:11 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 12:27:30 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:27:30 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 12:27:32 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 12:27:55 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:27:55 INFO  hooks.Hooks - ===== Scenario Started: Get specific object =====
-2026-01-16 12:27:57 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 12:27:58 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:27:58 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 12:27:58 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 12:44:13 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:44:13 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
-2026-01-16 12:44:15 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 12:44:16 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:44:16 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 12:44:17 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 12:44:17 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:44:17 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 12:44:17 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 12:44:17 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:44:17 INFO  hooks.Hooks - ===== Scenario Started: User object created via API =====
-2026-01-16 12:44:17 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 12:47:08 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:47:08 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 12:47:11 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 12:47:11 INFO  stepdefinitions.ApiSteps - user is displayed ff8081819782e69e019bc5aa47255a9a
-2026-01-16 12:52:14 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:52:14 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 12:52:16 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 12:52:17 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc5aef1db5aa5
-2026-01-16 12:53:38 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:53:38 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 12:53:40 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 12:53:41 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc5b03aa55aa8
-2026-01-16 12:56:25 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 12:56:25 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 12:56:27 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 12:56:28 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc5b2c6f55aaf
-2026-01-16 13:02:10 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 13:02:10 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 13:02:12 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 13:02:13 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc5b80aec5abc
-2026-01-16 13:03:08 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 13:03:08 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 13:03:10 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 13:03:10 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc5b8eb235ac2
-2026-01-16 13:03:28 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 13:03:28 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 13:03:30 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 13:03:30 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc5b939e15ac3
-2026-01-16 13:04:47 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 13:04:47 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 13:04:47 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 13:04:47 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 13:04:56 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 13:04:56 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 13:04:56 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 13:04:56 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: PASSED =====
-2026-01-16 13:04:56 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 13:04:57 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 13:04:57 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 13:04:57 INFO  hooks.Hooks - ===== Scenario Started: Invalid login =====
-2026-01-16 13:04:57 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 13:04:57 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 13:05:01 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 13:05:01 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 13:05:01 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 13:05:01 INFO  hooks.Hooks - ===== Scenario Finished: Invalid login | Status: PASSED =====
-2026-01-16 13:05:01 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 13:05:02 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 13:05:02 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 13:05:02 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 13:05:02 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 13:05:02 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 13:05:04 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 13:05:04 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 13:05:05 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
-2026-01-16 13:05:05 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 13:05:05 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 13:06:05 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 13:06:05 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 13:06:05 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 13:06:05 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 13:06:08 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 13:06:08 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 13:06:08 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 13:06:08 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: PASSED =====
-2026-01-16 13:06:08 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 13:06:09 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 13:06:09 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 13:06:09 INFO  hooks.Hooks - ===== Scenario Started: Invalid login =====
-2026-01-16 13:06:09 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 13:06:09 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 13:06:11 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 13:06:11 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 13:06:11 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 13:06:11 INFO  hooks.Hooks - ===== Scenario Finished: Invalid login | Status: PASSED =====
-2026-01-16 13:06:11 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 13:06:12 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 13:06:12 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 13:06:12 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 13:06:12 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 13:06:12 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 13:06:14 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 13:06:14 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 13:06:14 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
-2026-01-16 13:06:14 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 13:06:15 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 14:13:14 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 14:13:14 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 14:13:16 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 14:13:17 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc5f91aa65b5b
-2026-01-16 14:19:48 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 14:19:48 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 14:19:50 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 14:19:51 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc5ff1f7c5b66
-2026-01-16 14:19:52 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 14:19:52 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 14:19:52 INFO  stepdefinitions.ApiSteps - object is updated via API
-2026-01-16 14:19:52 INFO  stepdefinitions.ApiSteps - object is updatednull
-2026-01-16 14:22:41 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 14:22:41 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 14:22:43 INFO  stepdefinitions.ApiSteps - object is updated via API
-2026-01-16 14:22:44 INFO  stepdefinitions.ApiSteps - object is updatednull
-2026-01-16 14:26:24 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 14:26:24 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 14:26:26 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 14:26:27 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc60529235b6e
-2026-01-16 14:27:40 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 14:27:40 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 14:27:42 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 14:27:43 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc60650cd5b71
-2026-01-16 14:27:43 INFO  stepdefinitions.ApiSteps - object is updated via API
-2026-01-16 14:27:43 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc60650cd5b71
-2026-01-16 14:28:31 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 14:28:31 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 14:28:33 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 14:28:34 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc60718775b73
-2026-01-16 14:28:34 INFO  stepdefinitions.ApiSteps - object is updated via API
-2026-01-16 14:28:34 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc60718775b73
-2026-01-16 14:35:02 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 14:35:02 INFO  hooks.Hooks - ===== Scenario Started: Partially Update object =====
-2026-01-16 14:35:04 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 14:35:05 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc60d10e35b7e
-2026-01-16 14:35:07 INFO  stepdefinitions.ApiSteps - object is partially updated via API
-2026-01-16 14:35:07 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc60d10e35b7e
-2026-01-16 14:53:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 14:53:39 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 14:53:42 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 14:53:43 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc61e1f6e5bad
-2026-01-16 14:53:43 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 14:53:43 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc61e1f6e5bad has been deleted.
-2026-01-16 14:55:01 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 14:55:01 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 14:55:03 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 14:55:04 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc61f5b9e5bb1
-2026-01-16 14:55:04 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 14:55:04 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc61f5b9e5bb1 has been deleted.
-2026-01-16 15:58:37 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 15:58:37 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 15:58:40 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 15:58:41 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6599df75c81
-2026-01-16 15:59:32 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 15:59:32 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 15:59:34 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 15:59:35 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc65a6f115c86
-2026-01-16 16:05:43 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:05:43 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 16:05:45 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:05:46 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc66018105d61
-2026-01-16 16:06:09 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:06:09 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 16:06:11 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:06:11 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6607d335d63
-2026-01-16 16:09:02 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:09:02 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 16:09:05 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:09:05 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc66323e55d68
-2026-01-16 16:10:50 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:10:50 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 16:10:53 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:10:53 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc664c9cb5d72
-2026-01-16 16:10:54 INFO  stepdefinitions.ApiSteps - object is updated via API
-2026-01-16 16:10:54 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc664c9cb5d72
-2026-01-16 16:11:17 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:11:17 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 16:11:19 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:11:19 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6652f895d73
-2026-01-16 16:11:20 INFO  stepdefinitions.ApiSteps - object is updated via API
-2026-01-16 16:11:20 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc6652f895d73
-2026-01-16 16:12:01 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:12:01 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 16:12:03 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:12:04 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc665de7c5d78
-2026-01-16 16:12:04 INFO  stepdefinitions.ApiSteps - object is updated via API
-2026-01-16 16:12:04 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc665de7c5d78
-2026-01-16 16:14:28 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:14:28 INFO  hooks.Hooks - ===== Scenario Started: Partially Update object =====
-2026-01-16 16:14:31 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:14:32 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6681f165d7c
-2026-01-16 16:14:32 INFO  stepdefinitions.ApiSteps - object is partially updated via API
-2026-01-16 16:14:32 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc6681f165d7c
-2026-01-16 16:15:18 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:15:18 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 16:15:20 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:15:20 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc668dd505d81
-2026-01-16 16:15:21 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 16:15:21 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc668dd505d81 has been deleted.
-2026-01-16 16:36:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:36:39 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 16:36:42 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:36:43 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc67c6d685dc8
-2026-01-16 16:38:47 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:38:47 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
-2026-01-16 16:38:48 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 16:38:50 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 16:38:50 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:38:50 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc67e63c95dcf
-2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:38:50 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc67e65715dd0
-2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is updated via API
-2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc67e65715dd0
-2026-01-16 16:38:51 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:38:51 INFO  hooks.Hooks - ===== Scenario Started: Partially Update object =====
-2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:38:51 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc67e68495dd1
-2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is partially updated via API
-2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc67e68495dd1
-2026-01-16 16:38:52 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:38:52 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc67e6a825dd2
-2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 16:38:52 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc67e6a825dd2 has been deleted.
-2026-01-16 16:47:43 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:47:43 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 16:47:45 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 16:49:21 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:49:21 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 16:49:23 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 16:51:17 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:51:17 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 16:51:19 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 16:52:54 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:52:54 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 16:52:56 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 16:53:23 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:53:23 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 16:53:25 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 16:54:08 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:54:08 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 16:54:10 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 16:57:09 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:57:09 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 16:57:11 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 16:58:16 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:58:16 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 16:58:18 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 16:59:08 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 16:59:08 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 16:59:10 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 17:00:17 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:00:17 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 17:00:19 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 17:00:53 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:00:53 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 17:00:55 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 17:01:26 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:01:26 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 17:01:28 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 17:04:34 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:04:34 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 17:04:36 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 17:06:14 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:06:14 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 17:06:17 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 17:07:55 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:07:55 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 17:07:57 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 17:10:44 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:10:44 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 17:10:46 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 17:11:25 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:11:25 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 17:11:27 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 17:14:28 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:14:28 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
-2026-01-16 17:14:30 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 17:15:23 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:15:23 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
-2026-01-16 17:15:26 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 17:16:12 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:16:12 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
-2026-01-16 17:16:14 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 17:18:08 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:18:08 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
-2026-01-16 17:18:11 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 17:18:36 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:18:36 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 17:18:38 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 17:19:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:19:39 INFO  hooks.Hooks - ===== Scenario Started: Get list of objects =====
-2026-01-16 17:19:41 INFO  stepdefinitions.ApiSteps - user get list of object via API
-2026-01-16 17:23:25 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:23:25 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 17:23:27 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 17:23:28 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6a73b6d5e41
-2026-01-16 17:24:14 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:24:14 INFO  hooks.Hooks - ===== Scenario Started: Add object =====
-2026-01-16 17:24:16 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 17:24:17 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6a7fce95e43
-2026-01-16 17:25:13 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:25:13 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 17:25:15 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 17:25:16 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6a8e09d5e47
-2026-01-16 17:25:16 INFO  stepdefinitions.ApiSteps - object is updated via API
-2026-01-16 17:25:16 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc6a8e09d5e47
-2026-01-16 17:27:26 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:27:26 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 17:27:28 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 17:27:29 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6aaeae55e48
-2026-01-16 17:27:30 INFO  stepdefinitions.ApiSteps - object is updated via API
-2026-01-16 17:27:30 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc6aaeae55e48
-2026-01-16 17:28:09 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:28:09 INFO  hooks.Hooks - ===== Scenario Started: Update object =====
-2026-01-16 17:28:12 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 17:28:12 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6ab93275e4a
-2026-01-16 17:28:13 INFO  stepdefinitions.ApiSteps - object is updated via API
-2026-01-16 17:28:13 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc6ab93275e4a
-2026-01-16 17:28:33 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:28:33 INFO  hooks.Hooks - ===== Scenario Started: Partially Update object =====
-2026-01-16 17:28:36 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 17:28:37 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6abf3385e4c
-2026-01-16 17:28:37 INFO  stepdefinitions.ApiSteps - object is partially updated via API
-2026-01-16 17:28:37 INFO  stepdefinitions.ApiSteps - object is updatedff8081819782e69e019bc6abf3385e4c
-2026-01-16 17:28:56 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 17:28:56 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 17:28:59 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 17:28:59 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc6ac4ace5e4d
-2026-01-16 17:29:00 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 17:29:00 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc6ac4ace5e4d has been deleted.
-2026-01-16 19:51:28 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 19:51:28 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 19:51:30 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 19:51:31 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc72ec8236074
-2026-01-16 19:51:31 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 19:51:32 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc72ec8236074 has been deleted.
-2026-01-16 19:53:01 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 19:53:01 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 19:53:01 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 19:53:01 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 19:53:07 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 19:53:08 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc73042066078
-2026-01-16 19:53:08 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 19:53:08 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc73042066078 has been deleted.
-2026-01-16 19:53:08 INFO  hooks.Hooks - ===== Scenario Finished: Delete object | Status: PASSED =====
-2026-01-16 19:53:08 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 19:53:09 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 19:53:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 19:53:39 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 19:53:41 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 19:53:42 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc730c609607f
-2026-01-16 19:53:42 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 19:53:42 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc730c609607f has been deleted.
-2026-01-16 20:04:45 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 20:04:45 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 20:04:45 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 20:04:45 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 20:04:48 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 20:04:48 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 20:04:48 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 20:04:48 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: PASSED =====
-2026-01-16 20:04:48 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 20:04:48 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 20:04:49 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 20:04:49 INFO  hooks.Hooks - ===== Scenario Started: Invalid login =====
-2026-01-16 20:04:49 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 20:04:49 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 20:04:51 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 20:04:51 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 20:04:51 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 20:04:51 INFO  hooks.Hooks - ===== Scenario Finished: Invalid login | Status: PASSED =====
-2026-01-16 20:04:51 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 20:04:51 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 20:04:52 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 20:04:52 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 20:04:52 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 20:04:52 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 20:04:54 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 20:04:54 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 20:04:55 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
-2026-01-16 20:04:55 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 20:04:55 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 20:22:45 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 20:22:45 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 20:22:45 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 20:22:45 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 20:22:49 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 20:23:10 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
-2026-01-16 20:23:10 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 20:23:10 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 20:23:11 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 20:23:11 INFO  hooks.Hooks - ===== Scenario Started: Invalid login =====
-2026-01-16 20:23:11 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 20:23:11 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 20:23:13 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 20:23:13 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 20:23:13 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 20:23:13 INFO  hooks.Hooks - ===== Scenario Finished: Invalid login | Status: PASSED =====
-2026-01-16 20:23:13 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 20:23:13 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 20:23:13 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 20:23:13 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 20:23:13 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 20:23:13 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 20:23:16 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 20:23:16 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 20:23:16 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
-2026-01-16 20:23:16 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 20:23:16 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 20:23:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 20:23:39 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 20:23:41 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 20:23:42 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc74c3d106113
-2026-01-16 20:23:42 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 20:23:42 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc74c3d106113 has been deleted.
-2026-01-16 21:27:18 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:27:18 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
-2026-01-16 21:27:24 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 21:27:26 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:27:26 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 21:27:27 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 21:27:27 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc7869d386197
-2026-01-16 21:27:27 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 21:27:27 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc7869d386197 has been deleted.
-2026-01-16 21:29:15 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:29:15 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 21:29:15 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:29:15 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:29:21 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:29:21 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:29:21 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 21:29:21 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: PASSED =====
-2026-01-16 21:29:21 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:29:22 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:29:22 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:29:22 INFO  hooks.Hooks - ===== Scenario Started: Invalid login =====
-2026-01-16 21:29:22 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:29:22 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:29:26 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:29:27 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:29:27 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 21:29:27 INFO  hooks.Hooks - ===== Scenario Finished: Invalid login | Status: PASSED =====
-2026-01-16 21:29:27 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:29:27 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:29:27 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:29:27 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 21:29:27 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:29:27 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:29:31 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:29:31 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:29:31 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
-2026-01-16 21:29:31 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:29:32 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:33:21 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:33:21 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 21:33:21 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:33:21 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:33:26 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:33:26 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:33:26 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 21:33:26 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: PASSED =====
-2026-01-16 21:33:26 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:33:26 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:33:28 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:33:28 INFO  hooks.Hooks - ===== Scenario Started: Invalid login =====
-2026-01-16 21:33:28 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:33:28 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:33:32 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:33:33 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:33:33 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 21:33:33 INFO  hooks.Hooks - ===== Scenario Finished: Invalid login | Status: PASSED =====
-2026-01-16 21:33:33 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:33:33 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:33:33 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:33:33 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 21:33:33 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:33:33 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:33:37 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:33:38 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:33:38 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
-2026-01-16 21:33:38 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:33:39 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:36:16 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:36:16 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 21:36:16 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:36:16 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:36:21 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:36:21 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:36:21 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 21:36:21 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: PASSED =====
-2026-01-16 21:36:21 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:36:22 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:36:22 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:36:22 INFO  hooks.Hooks - ===== Scenario Started: Invalid login =====
-2026-01-16 21:36:22 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:36:22 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:36:26 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:36:26 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:36:26 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 21:36:26 INFO  hooks.Hooks - ===== Scenario Finished: Invalid login | Status: PASSED =====
-2026-01-16 21:36:26 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:36:27 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:36:27 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:36:27 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 21:36:27 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:36:27 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:36:32 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:36:32 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:36:32 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
-2026-01-16 21:36:33 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:36:33 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:37:04 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:37:04 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 21:37:04 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:37:04 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:37:08 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: UNDEFINED =====
-2026-01-16 21:37:08 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:37:08 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:39:45 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:39:45 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
-2026-01-16 21:39:49 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 21:39:52 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:39:52 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 21:39:52 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 21:39:52 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc791fd3f61bd
-2026-01-16 21:39:53 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 21:39:53 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc791fd3f61bd has been deleted.
-2026-01-16 21:41:00 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:41:00 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 21:45:17 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:45:17 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 21:45:21 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 21:45:23 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc797018561c7
-2026-01-16 21:45:23 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 21:45:24 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc797018561c7 has been deleted.
-2026-01-16 21:47:04 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:47:04 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 21:47:08 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 21:47:10 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc798a42361ca
-2026-01-16 21:47:11 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 21:47:11 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc798a42361ca has been deleted.
-2026-01-16 21:49:15 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:49:15 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
-2026-01-16 21:49:19 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 21:49:21 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:49:21 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 21:49:21 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 21:49:21 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc79aac2361fd
-2026-01-16 21:49:22 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 21:49:22 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc79aac2361fd has been deleted.
-2026-01-16 21:49:56 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:49:56 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 21:50:01 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 21:50:02 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc79b446461ff
-2026-01-16 21:50:03 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 21:50:03 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc79b446461ff has been deleted.
-2026-01-16 21:51:32 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:51:32 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
-2026-01-16 21:51:36 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 21:51:39 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:51:39 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 21:51:39 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 21:51:39 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc79cc641620a
-2026-01-16 21:51:40 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 21:51:40 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc79cc641620a has been deleted.
-2026-01-16 21:52:38 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 21:52:38 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 21:52:42 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 21:52:44 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc79dbc0a620d
-2026-01-16 21:52:44 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 21:52:44 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc79dbc0a620d has been deleted.
-2026-01-16 21:53:30 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:53:30 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 21:53:30 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:53:30 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:53:35 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:53:36 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:53:36 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 21:53:36 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: PASSED =====
-2026-01-16 21:53:36 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:53:36 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:53:37 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:53:37 INFO  hooks.Hooks - ===== Scenario Started: Invalid login =====
-2026-01-16 21:53:37 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:53:37 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:53:40 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:53:41 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:53:41 INFO  stepdefinitions.LoginSteps - Verifying home page
-2026-01-16 21:53:41 INFO  hooks.Hooks - ===== Scenario Finished: Invalid login | Status: PASSED =====
-2026-01-16 21:53:41 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:53:41 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:53:41 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:53:41 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 21:53:41 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:53:41 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:53:45 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:54:06 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
-2026-01-16 21:54:06 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:54:07 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 21:55:03 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
-2026-01-16 21:55:03 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
-2026-01-16 21:55:03 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
-2026-01-16 21:55:03 INFO  driver.DriverFactory - Starting local Chrome
-2026-01-16 21:55:07 INFO  stepdefinitions.LoginSteps - Navigating to login page
-2026-01-16 21:55:08 INFO  stepdefinitions.LoginSteps - Entering valid credentials
-2026-01-16 21:55:08 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
-2026-01-16 21:55:08 INFO  driver.DriverFactory - Attempting to quit WebDriver
-2026-01-16 21:55:10 INFO  driver.DriverFactory - WebDriver quit successfully
-2026-01-16 22:00:04 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 22:00:04 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
-2026-01-16 22:00:08 INFO  stepdefinitions.ApiSteps - user get object via API
-2026-01-16 22:00:11 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 22:00:11 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 22:00:12 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 22:00:12 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc7a498956230
-2026-01-16 22:00:12 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 22:00:12 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc7a498956230 has been deleted.
-2026-01-16 22:00:40 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
-2026-01-16 22:00:40 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
-2026-01-16 22:00:45 INFO  stepdefinitions.ApiSteps - object is created via API
-2026-01-16 22:00:46 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bc7a518606231
-2026-01-16 22:00:47 INFO  stepdefinitions.ApiSteps - object is deleted via API
-2026-01-16 22:00:47 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bc7a518606231 has been deleted.
+2026-01-17 12:59:17 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 12:59:17 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
+2026-01-17 12:59:17 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 12:59:17 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 12:59:24 INFO  stepdefinitions.ApiSteps - user get object via API
+2026-01-17 12:59:26 INFO  hooks.Hooks - ===== Scenario Finished: Get single object | Status: PASSED =====
+2026-01-17 12:59:26 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 12:59:26 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 12:59:27 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 12:59:27 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
+2026-01-17 12:59:27 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 12:59:27 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 12:59:29 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-17 12:59:29 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bcadbe84d6820
+2026-01-17 12:59:29 INFO  stepdefinitions.ApiSteps - object is deleted via API
+2026-01-17 12:59:29 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bcadbe84d6820 has been deleted.
+2026-01-17 12:59:30 INFO  hooks.Hooks - ===== Scenario Finished: Delete object | Status: FAILED =====
+2026-01-17 12:59:30 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 12:59:30 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 13:04:55 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-17 13:04:55 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
+2026-01-17 13:04:59 INFO  stepdefinitions.ApiSteps - user get object via API
+2026-01-17 13:05:01 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-17 13:05:01 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
+2026-01-17 13:05:02 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-17 13:05:02 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bcae0fc88682b
+2026-01-17 13:05:02 INFO  stepdefinitions.ApiSteps - object is deleted via API
+2026-01-17 13:05:02 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bcae0fc88682b has been deleted.
+2026-01-17 13:09:24 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-17 13:09:24 INFO  hooks.Hooks - ===== Scenario Started: Get single object =====
+2026-01-17 13:09:26 INFO  stepdefinitions.ApiSteps - user get object via API
+2026-01-17 13:09:27 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: api =====
+2026-01-17 13:09:27 INFO  hooks.Hooks - ===== Scenario Started: Delete object =====
+2026-01-17 13:09:28 INFO  stepdefinitions.ApiSteps - object is created via API
+2026-01-17 13:09:28 INFO  stepdefinitions.ApiSteps - object is createdff8081819782e69e019bcae50bb16831
+2026-01-17 13:09:28 INFO  stepdefinitions.ApiSteps - object is deleted via API
+2026-01-17 13:09:28 INFO  stepdefinitions.ApiSteps - object is deletedObject with id = ff8081819782e69e019bcae50bb16831 has been deleted.
+2026-01-17 13:10:33 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 13:10:33 INFO  hooks.Hooks - ===== Scenario Started: User registration =====
+2026-01-17 13:10:33 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 13:10:33 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 13:10:36 INFO  hooks.Hooks - ===== Scenario Finished: User registration | Status: PASSED =====
+2026-01-17 13:10:36 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 13:10:36 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 13:10:36 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 13:10:36 INFO  hooks.Hooks - ===== Scenario Started: Exa02 =====
+2026-01-17 13:10:36 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 13:10:36 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 13:10:38 INFO  hooks.Hooks - ===== Scenario Finished: Exa02 | Status: PASSED =====
+2026-01-17 13:10:38 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 13:10:38 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 13:10:38 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 13:10:38 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 13:10:38 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 13:10:38 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 13:10:41 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 13:10:41 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 13:10:41 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 13:10:41 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 13:10:41 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 13:10:41 INFO  hooks.Hooks - ===== Scenario Started: Successful login with valid credentials =====
+2026-01-17 13:10:41 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 13:10:41 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 13:10:44 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 13:10:44 INFO  hooks.Hooks - ===== Scenario Finished: Successful login with valid credentials | Status: PASSED =====
+2026-01-17 13:10:44 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 13:10:44 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 13:10:44 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 13:10:44 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 13:10:44 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 13:10:44 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 13:10:47 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 13:10:47 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 13:10:47 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 13:10:47 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 13:10:47 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 13:10:47 INFO  hooks.Hooks - ===== Scenario Started: Login tests =====
+2026-01-17 13:10:47 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 13:10:47 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 13:10:49 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 13:10:50 INFO  hooks.Hooks - ===== Scenario Finished: Login tests | Status: PASSED =====
+2026-01-17 13:10:50 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 13:10:50 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 13:10:50 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 13:10:50 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
+2026-01-17 13:10:50 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 13:10:50 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 13:10:52 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 13:10:52 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 13:10:52 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 13:10:52 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: PASSED =====
+2026-01-17 13:10:52 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 13:10:53 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 13:10:53 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 13:10:53 INFO  hooks.Hooks - ===== Scenario Started: Invalid login =====
+2026-01-17 13:10:53 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 13:10:53 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 13:10:55 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 13:10:55 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 13:10:55 INFO  stepdefinitions.LoginSteps - Verifying home page
+2026-01-17 13:10:55 INFO  hooks.Hooks - ===== Scenario Finished: Invalid login | Status: PASSED =====
+2026-01-17 13:10:55 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 13:10:56 INFO  driver.DriverFactory - WebDriver quit successfully
+2026-01-17 13:10:56 INFO  hooks.Hooks - ===== Before Hook Executing | Platform: web =====
+2026-01-17 13:10:56 INFO  hooks.Hooks - ===== Scenario Started: Valid login =====
+2026-01-17 13:10:56 INFO  driver.DriverFactory - Initializing WebDriver | mode=local | browser=chrome
+2026-01-17 13:10:56 INFO  driver.DriverFactory - Starting local Chrome
+2026-01-17 13:10:58 INFO  stepdefinitions.LoginSteps - Navigating to login page
+2026-01-17 13:10:58 INFO  stepdefinitions.LoginSteps - Entering valid credentials
+2026-01-17 13:10:59 INFO  hooks.Hooks - ===== Scenario Finished: Valid login | Status: FAILED =====
+2026-01-17 13:10:59 INFO  driver.DriverFactory - Attempting to quit WebDriver
+2026-01-17 13:10:59 INFO  driver.DriverFactory - WebDriver quit successfully

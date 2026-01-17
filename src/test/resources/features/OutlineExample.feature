@@ -1,5 +1,5 @@
 Feature: Login functionality
-@Regression
+@Smoke
   Scenario Outline: Successful login with valid credentials
     Given user is on login page
     When user enters username "<username>" and password "<password>"
@@ -11,7 +11,7 @@ Feature: Login functionality
       | admin    | admin123 | Welcome Admin  |
       | user1    | pass123  | Welcome User   |
 
-  @Regression
+  @Smoke
   Scenario Outline: Login tests
     Given user is on login page
     When user enters username "<username>" and password "<password>"

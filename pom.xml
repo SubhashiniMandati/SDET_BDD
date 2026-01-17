@@ -104,6 +104,10 @@
                        <!--suppress UnresolvedMavenProperty -->
                        <include>${runner.class}.java</include>
                    </includes>
+                   <!-- PARALLEL CONFIG -->
+                   <parallel>methods</parallel>
+                   <threadCount>2</threadCount>
+
                </configuration>
            </plugin>
        </plugins>
@@ -136,7 +140,5 @@
         </profile>
 
     </profiles>
-
-
 
 </project>

@@ -14,7 +14,7 @@ public class LoginPage {
    private By password = By.id("pass");
 
     public void openLoginPage() {
-        driver.get(ConfigReader.getProperty(TestContext.ENV+".base.url"));
+        driver.get(ConfigReader.getProperty("base.url"));
     }
 
     public void login(String user, String pass) {

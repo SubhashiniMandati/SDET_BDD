@@ -7,6 +7,8 @@ import java.util.Properties;
 public class ConfigReader {
 
     private static Properties properties;
+    private static final String ENV = System.getProperty("env", "qc");
+
 
     static {
         properties = new Properties();
@@ -14,16 +16,16 @@ public class ConfigReader {
                 InputStream configStream = Thread.currentThread()
                         .getContextClassLoader()
                         .getResourceAsStream("config.properties");
-                InputStream qcStream = Thread.currentThread()
+                InputStream envStream = Thread.currentThread()
                         .getContextClassLoader()
-                        .getResourceAsStream("qc.properties")
+                        .getResourceAsStream(ENV+".properties")
         ) {
-            if (configStream == null || qcStream == null) {
+            if (configStream == null || envStream == null) {
                 throw new RuntimeException("One or more property files not found in classpath");
             }
 
             properties.load(configStream);
-            properties.load(qcStream);
+            properties.load(envStream);
 
         } catch (IOException e) {
             throw new RuntimeException("Failed to load property files", e);

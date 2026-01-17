@@ -31,7 +31,7 @@ public class ApiSteps {
     @Given("user get object via API")
     public void user_get_object_via_api() {
         HashMap<String, String> headers= new HashMap<>();
-        context.response= ApiResponse.getApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.api_base_path"),headers, "");
+        context.response= ApiResponse.getApiResponse(ConfigReader.getProperty("api_base_url"),ConfigReader.getProperty("api_base_path"),headers, "");
         log.info("user get object via API");
     }
     @Then("validate specific object response")
@@ -49,7 +49,7 @@ public class ApiSteps {
     @Given("user get list of object via API")
     public void user_get_list_of_objects(){
         HashMap<String, String> headers= new HashMap<>();
-        context.response= ApiResponse.getApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects"),headers, "");
+        context.response= ApiResponse.getApiResponse(ConfigReader.getProperty("api_base_url"),ConfigReader.getProperty("get_objects"),headers, "");
         log.info("user get list of object via API");
     }
 
@@ -70,7 +70,7 @@ public class ApiSteps {
         HashMap<String, String> headers= new HashMap<>();
         // Read CREATE payload
         JsonNode createPayload = root.get("create");
-        context.response= ApiResponse.postApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects"),headers, createPayload.toString(),"");
+        context.response= ApiResponse.postApiResponse(ConfigReader.getProperty("api_base_url"),ConfigReader.getProperty("get_objects"),headers, createPayload.toString(),"");
         log.info("object is created via API");
     }
 
@@ -89,7 +89,7 @@ public class ApiSteps {
         HashMap<String, String> headers= new HashMap<>();
         // Read UPDATE payload
         JsonNode updatePayload = root.get("update");
-        context.response= ApiResponse.putApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects")+"/"+id,headers, updatePayload.toString(),"");
+        context.response= ApiResponse.putApiResponse(ConfigReader.getProperty("api_base_url"),ConfigReader.getProperty("get_objects")+"/"+id,headers, updatePayload.toString(),"");
         log.info("object is updated via API");
     }
     @Then("object details are updated")
@@ -108,7 +108,7 @@ public class ApiSteps {
         HashMap<String, String> headers= new HashMap<>();
         // Read Patch UPDATE payload
         JsonNode patchUpdatePayload = root.get("patchUpdate");
-        context.response= ApiResponse.patchApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects")+"/"+id,headers, patchUpdatePayload.toString() ,"");
+        context.response= ApiResponse.patchApiResponse(ConfigReader.getProperty("api_base_url"),ConfigReader.getProperty("get_objects")+"/"+id,headers, patchUpdatePayload.toString() ,"");
         log.info("object is partially updated via API");
     }
     @Then("object details are partially updated")
@@ -123,7 +123,7 @@ public class ApiSteps {
     public void object_is_deleted_via_api(){
         id = context.response.jsonPath().getString("id");
         HashMap<String, String> headers= new HashMap<>();
-        context.response= ApiResponse.deleteApiResponse(ConfigReader.getProperty("qc.api_base_url"),ConfigReader.getProperty("qc.get_objects")+"/"+id,headers,"");
+        context.response= ApiResponse.deleteApiResponse(ConfigReader.getProperty("api_base_url"),ConfigReader.getProperty("get_objects")+"/"+id,headers,"");
         log.info("object is deleted via API");
     }
     @Then("verify object is deleted")
