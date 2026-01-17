@@ -22,7 +22,7 @@ Feature: API CRUD Operations
     When object is updated via API
     Then object details are updated
 
-  @api01
+  @api
   Scenario: Partially Update object
     Given object is created via API
     Then object is created
