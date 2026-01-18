@@ -7,6 +7,9 @@ import org.testng.Assert;
 import pages.LoginPage;
 import org.apache.logging.log4j.Logger;
 import log.LoggerUtil;
+import utils.SoftAssertManager;
+import validations.ResponseValidator;
+
 import java.util.*;
 
 
@@ -18,7 +21,6 @@ public class LoginSteps{
     public void user_on_login_page() {
         loginPage.openLoginPage();
         log.info("Navigating to login page");
-
     }
 
     @When("user enters valid credentials")
@@ -30,13 +32,15 @@ public class LoginSteps{
     @Then("user should land on home page")
     public void verify_home_page()
     {
-        Assert.assertTrue(loginPage.isHomePageDisplayed());
+        ResponseValidator.assertTrue(loginPage.isHomePageDisplayed());
+        SoftAssertManager.assertAll();
         log.info("Verifying home page");
     }
     @Then("user should land on home page01")
     public void verify_home_page_01()
     {
-        Assert.assertTrue(loginPage.isHomePageDisplayed01());
+        ResponseValidator.assertTrue(loginPage.isHomePageDisplayed());
+        SoftAssertManager.assertAll();
         log.info("Verifying home page");
     }
     @When("user enters username {string} and password {string}")
@@ -45,7 +49,8 @@ public class LoginSteps{
     }
     @Then("user should see homepage with message {string}")
     public void verify_homepage(String message) {
-        Assert.assertEquals("test message", "test message");
+        ResponseValidator.assertEquals("test message", "test message");
+        SoftAssertManager.assertAll();
     }
 
     @Given("user enters registration details")

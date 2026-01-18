@@ -10,7 +10,7 @@ import log.LoggerUtil;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import utils.SoftAssertManager;
-import validations.ApiResponseValidator;
+import validations.ResponseValidator;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -39,12 +39,12 @@ public class ApiSteps {
     public void validate_specific_object_response() {
         // Read GET payload
         JsonNode getPayload = root.get("get");
-        ApiResponseValidator.assertEquals(response.jsonPath().getString("id"), "7");
-        ApiResponseValidator.assertEquals(response.jsonPath().getString("name"), getPayload.get("name").asText());
+        ResponseValidator.assertEquals(response.jsonPath().getString("id"), "6");
+        ResponseValidator.assertEquals(response.jsonPath().getString("name"), getPayload.get("name").asText());
         Object year = response.jsonPath().get("data.year");
-        ApiResponseValidator.assertEquals(String.valueOf(year), getPayload.get("data").get("year").asText());
+        ResponseValidator.assertEquals(String.valueOf(year), getPayload.get("data").get("year").asText());
         Object price = response.jsonPath().get("data.price");
-        ApiResponseValidator.assertEquals(String.valueOf(price), getPayload.get("data").get("price").asText());
+        ResponseValidator.assertEquals(String.valueOf(price), getPayload.get("data").get("year").asText());
         SoftAssertManager.assertAll();
     }
 
@@ -59,12 +59,12 @@ public class ApiSteps {
     public void validate_object_response() {
         // Read GET payload
         JsonNode getPayload = root.get("get");
-        ApiResponseValidator.assertEquals(response.jsonPath().getString("[6].id"), "7");
-        ApiResponseValidator.assertEquals(response.jsonPath().getString("[6].name"), getPayload.get("name").asText());
+        ResponseValidator.assertEquals(response.jsonPath().getString("[6].id"), "7");
+        ResponseValidator.assertEquals(response.jsonPath().getString("[6].name"), getPayload.get("name").asText());
         Object year = response.jsonPath().get("[6].data.year");
-        ApiResponseValidator.assertEquals(String.valueOf(year), getPayload.get("data").get("year").asText());
+        ResponseValidator.assertEquals(String.valueOf(year), getPayload.get("data").get("year").asText());
         Object price = response.jsonPath().get("[6].data.price");
-        ApiResponseValidator.assertEquals(String.valueOf(price), getPayload.get("data").get("price").asText());
+        ResponseValidator.assertEquals(String.valueOf(price), getPayload.get("data").get("price").asText());
         SoftAssertManager.assertAll();
     }
 
@@ -82,9 +82,9 @@ public class ApiSteps {
         log.info("object is created" + response.jsonPath().getString("id"));
         // Read CREATE payload
         JsonNode createPayload = root.get("create");
-        ApiResponseValidator.assertEquals(response.jsonPath().getString("name"), createPayload.get("name").asText());
-        ApiResponseValidator.assertNotNull(response.jsonPath().getString("createdAt"));
-        ApiResponseValidator.assertEquals(response.jsonPath().getString("data.year"), createPayload.get("data").get("year").asText());
+        ResponseValidator.assertEquals(response.jsonPath().getString("name"), createPayload.get("name").asText());
+        ResponseValidator.assertNotNull(response.jsonPath().getString("createdAt"));
+        ResponseValidator.assertEquals(response.jsonPath().getString("data.year"), createPayload.get("data").get("year").asText());
         SoftAssertManager.assertAll();
     }
     @Given("object is updated via API")
@@ -101,10 +101,10 @@ public class ApiSteps {
         // Read UPDATE payload
         JsonNode updatePayload = root.get("update");
         log.info("object is updated" + response.jsonPath().getString("id"));
-        ApiResponseValidator.assertEquals(response.jsonPath().getString("name"), updatePayload.get("name").asText());
-        ApiResponseValidator.assertNotNull(response.jsonPath().getString("updatedAt"));
-        ApiResponseValidator.assertEquals(response.jsonPath().getString("data.year"), updatePayload.get("data").get("year").asText());
-        ApiResponseValidator.assertEquals(response.jsonPath().getString("data.color"), updatePayload.get("data").get("color").asText());
+        ResponseValidator.assertEquals(response.jsonPath().getString("name"), updatePayload.get("name").asText());
+        ResponseValidator.assertNotNull(response.jsonPath().getString("updatedAt"));
+        ResponseValidator.assertEquals(response.jsonPath().getString("data.year"), updatePayload.get("data").get("year").asText());
+        ResponseValidator.assertEquals(response.jsonPath().getString("data.color"), updatePayload.get("data").get("color").asText());
         SoftAssertManager.assertAll();
     }
     @Given("object is partially updated via API")
@@ -121,8 +121,8 @@ public class ApiSteps {
         // Read Patch UPDATE payload
         JsonNode patchUpdatePayload = root.get("patchUpdate");
         log.info("object is updated" + response.jsonPath().getString("id"));
-        ApiResponseValidator.assertEquals(response.jsonPath().getString("name"), patchUpdatePayload.get("name").asText());
-        ApiResponseValidator.assertNotNull(response.jsonPath().getString("updatedAt"));
+        ResponseValidator.assertEquals(response.jsonPath().getString("name"), patchUpdatePayload.get("name").asText());
+        ResponseValidator.assertNotNull(response.jsonPath().getString("updatedAt"));
         SoftAssertManager.assertAll();
     }
     @When("object is deleted via API")

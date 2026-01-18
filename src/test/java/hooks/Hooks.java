@@ -44,10 +44,10 @@ public class Hooks {
         } finally {
             SoftAssertManager.clear();
         }
+        log.info("===== Scenario Finished: {} | Status: {} =====",
+                scenario.getName(),
+                scenario.getStatus());
         if (TestContext.platform.equalsIgnoreCase("web")){
-            log.info("===== Scenario Finished: {} | Status: {} =====",
-                    scenario.getName(),
-                    scenario.getStatus());
 
             WebDriver driver = DriverFactory.getDriver();
 
